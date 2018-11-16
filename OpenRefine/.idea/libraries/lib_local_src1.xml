@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib-local-src1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/extensions/wikidata/lib-local-src/wdtk-wikibaseapi-0.9.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/extensions/wikidata/lib-local-src/wdtk-datamodel-0.9.0-SNAPSHOT-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jdatapath-alpha2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/server/lib-local/jdatapath-alpha2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

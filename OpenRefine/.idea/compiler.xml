@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="command" />
         <module name="commonpart" />
         <module name="database" />
         <module name="gdata" />
@@ -21,6 +22,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="command" target="1.8" />
       <module name="common" target="1.5" />
       <module name="commonpart" target="1.8" />
       <module name="database" target="1.8" />

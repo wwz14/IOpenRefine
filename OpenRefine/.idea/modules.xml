@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/broker/appengine/appengine.iml" filepath="$PROJECT_DIR$/broker/appengine/appengine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/command/command.iml" filepath="$PROJECT_DIR$/command/command.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonpart/commonpart.iml" filepath="$PROJECT_DIR$/commonpart/commonpart.iml" />
       <module fileurl="file://$PROJECT_DIR$/broker/core/core.iml" filepath="$PROJECT_DIR$/broker/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/extensions/database/database.iml" filepath="$PROJECT_DIR$/extensions/database/database.iml" />

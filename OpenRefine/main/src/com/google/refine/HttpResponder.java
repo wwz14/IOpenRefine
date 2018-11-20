@@ -1,4 +1,4 @@
-package com.google.refine.commonpart;
+package com.google.refine;
 
 import com.google.refine.RefineServlet;
 

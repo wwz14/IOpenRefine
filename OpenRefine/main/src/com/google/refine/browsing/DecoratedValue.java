@@ -33,14 +33,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.browsing;
 
-import java.time.OffsetDateTime;
-import java.util.Properties;
-
+import com.google.refine.commonpart.Jsonizable;
+import com.google.refine.utility.util.StringUtils;
 import org.json.JSONException;
 import org.json.JSONWriter;
 
-import com.google.refine.Jsonizable;
-import com.google.refine.utility.util.StringUtils;
+import java.time.OffsetDateTime;
+import java.util.Properties;
 
 /**
  * Store a value and its text label, in case the value is not a string itself.

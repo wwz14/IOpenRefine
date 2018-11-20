@@ -33,7 +33,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.clustering;
 
-import com.google.refine.Jsonizable;
+import com.google.refine.commonpart.Jsonizable;
 import com.google.refine.browsing.Engine;
 import com.google.refine.model.Column;
 import com.google.refine.model.Project;

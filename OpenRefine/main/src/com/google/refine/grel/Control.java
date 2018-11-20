@@ -33,10 +33,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.grel;
 
-import java.util.Properties;
-
-import com.google.refine.Jsonizable;
+import com.google.refine.commonpart.Jsonizable;
 import com.google.refine.expr.Evaluable;
+
+import java.util.Properties;
 
 /**
  * Interface of GREL controls such as if, forEach, forNonBlank, with. A control can

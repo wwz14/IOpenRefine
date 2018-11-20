@@ -33,26 +33,24 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.commands.cell;
 
-import java.io.IOException;
-import java.io.Serializable;
-import java.util.Properties;
+import com.google.refine.commands.Command;
+import com.google.refine.history.Change;
+import com.google.refine.model.Cell;
+import com.google.refine.model.Column;
+import com.google.refine.model.Pool;
+import com.google.refine.model.Project;
+import com.google.refine.model.changes.CellChange;
+import com.google.refine.process.HistoryEntry;
+import com.google.refine.process.QuickHistoryEntryProcess;
+import com.google.refine.utility.util.ParsingUtilities;
+import org.json.JSONWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import org.json.JSONWriter;
-
-import com.google.refine.commands.Command;
-import com.google.refine.history.Change;
-import com.google.refine.process.HistoryEntry;
-import com.google.refine.model.Cell;
-import com.google.refine.model.Column;
-import com.google.refine.model.Project;
-import com.google.refine.model.changes.CellChange;
-import com.google.refine.process.QuickHistoryEntryProcess;
-import com.google.refine.utility.util.ParsingUtilities;
-import com.google.refine.model.Pool;
+import java.io.IOException;
+import java.io.Serializable;
+import java.util.Properties;
 
 public class EditOneCellCommand extends Command {
     @Override

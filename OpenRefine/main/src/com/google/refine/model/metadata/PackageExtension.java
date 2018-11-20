@@ -1,13 +1,7 @@
 package com.google.refine.model.metadata;
 
-import java.io.ByteArrayOutputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipOutputStream;
-
+import io.frictionlessdata.datapackage.Package;
+import io.frictionlessdata.datapackage.exceptions.DataPackageException;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
@@ -15,8 +9,9 @@ import org.everit.json.schema.ValidationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import io.frictionlessdata.datapackage.Package;
-import io.frictionlessdata.datapackage.exceptions.DataPackageException;
+import java.io.*;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipOutputStream;
 
 /** 
  * This class contains some methods which is not included in the official "Data Package" repo for now.
@@ -67,8 +62,7 @@ public class PackageExtension {
     
     /**
      * To build a Package object from a template file contains empty metadata
-     *  
-     * @param templateFile
+     *
      */
     public static Package buildPackageFromTemplate() {
         try {

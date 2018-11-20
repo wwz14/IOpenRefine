@@ -33,28 +33,21 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.history;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.LineNumberReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.Writer;
+import com.google.refine.ProjectManager;
+import com.google.refine.RefineServlet;
+import com.google.refine.commonpart.Jsonizable;
+import com.google.refine.model.Pool;
+import com.google.refine.model.Project;
+import com.google.refine.process.HistoryEntry;
+import org.json.JSONException;
+import org.json.JSONWriter;
+
+import java.io.*;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
-
-import com.google.refine.process.HistoryEntry;
-import org.json.JSONException;
-import org.json.JSONWriter;
-
-import com.google.refine.Jsonizable;
-import com.google.refine.ProjectManager;
-import com.google.refine.RefineServlet;
-import com.google.refine.model.Project;
-import com.google.refine.model.Pool;
 
 /**
  * Track done and undone changes. Done changes can be undone; undone changes can be redone.
@@ -213,7 +206,7 @@ public class History implements Jsonizable {
         return -1;
     }
 
-    protected HistoryEntry getEntry(long entryID) {
+    public HistoryEntry getEntry(long entryID) {
         for (int i = 0; i < _pastEntries.size(); i++) {
             if (_pastEntries.get(i).id == entryID) {
                 return _pastEntries.get(i);

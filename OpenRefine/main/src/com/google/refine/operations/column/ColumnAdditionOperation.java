@@ -33,15 +33,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.operations.column;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.json.JSONWriter;
-
 import com.google.refine.browsing.Engine;
 import com.google.refine.browsing.EngineConfig;
 import com.google.refine.browsing.FilteredRows;
@@ -51,18 +42,22 @@ import com.google.refine.expr.ExpressionUtils;
 import com.google.refine.expr.MetaParser;
 import com.google.refine.expr.WrappedCell;
 import com.google.refine.history.Change;
-import com.google.refine.process.HistoryEntry;
-import com.google.refine.model.AbstractOperation;
-import com.google.refine.model.Cell;
-import com.google.refine.model.Column;
-import com.google.refine.model.Project;
-import com.google.refine.model.Row;
-import com.google.refine.common.commonpackage.model.changes.CellAtRow;
+import com.google.refine.model.*;
+import com.google.refine.model.changes.CellAtRow;
 import com.google.refine.model.changes.ColumnAdditionChange;
 import com.google.refine.operations.EngineDependentOperation;
 import com.google.refine.operations.OnError;
 import com.google.refine.operations.OperationRegistry;
 import com.google.refine.operations.cell.TextTransformOperation;
+import com.google.refine.process.HistoryEntry;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONWriter;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
 
 public class ColumnAdditionOperation extends EngineDependentOperation {
     final protected String     _baseColumnName;

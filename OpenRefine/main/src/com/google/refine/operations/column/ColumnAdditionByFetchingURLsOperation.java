@@ -33,6 +33,30 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.operations.column;
 
+import com.google.common.cache.CacheBuilder;
+import com.google.common.cache.CacheLoader;
+import com.google.common.cache.LoadingCache;
+import com.google.refine.browsing.Engine;
+import com.google.refine.browsing.EngineConfig;
+import com.google.refine.browsing.FilteredRows;
+import com.google.refine.browsing.RowVisitor;
+import com.google.refine.expr.*;
+import com.google.refine.model.*;
+import com.google.refine.model.changes.CellAtRow;
+import com.google.refine.model.changes.ColumnAdditionChange;
+import com.google.refine.operations.EngineDependentOperation;
+import com.google.refine.operations.OnError;
+import com.google.refine.operations.OperationRegistry;
+import com.google.refine.operations.cell.TextTransformOperation;
+import com.google.refine.process.HistoryEntry;
+import com.google.refine.process.LongRunningProcess;
+import com.google.refine.process.Process;
+import com.google.refine.utility.util.ParsingUtilities;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONWriter;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.Serializable;
@@ -44,40 +68,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.json.JSONWriter;
-
-import com.google.common.cache.CacheBuilder;
-import com.google.common.cache.CacheLoader;
-import com.google.common.cache.LoadingCache;
-
-import com.google.refine.browsing.Engine;
-import com.google.refine.browsing.EngineConfig;
-import com.google.refine.browsing.FilteredRows;
-import com.google.refine.browsing.RowVisitor;
-import com.google.refine.expr.EvalError;
-import com.google.refine.expr.Evaluable;
-import com.google.refine.expr.ExpressionUtils;
-import com.google.refine.expr.MetaParser;
-import com.google.refine.expr.WrappedCell;
-import com.google.refine.process.HistoryEntry;
-import com.google.refine.model.AbstractOperation;
-import com.google.refine.model.Cell;
-import com.google.refine.model.Column;
-import com.google.refine.model.Project;
-import com.google.refine.model.Row;
-import com.google.refine.common.commonpackage.model.changes.CellAtRow;
-import com.google.refine.model.changes.ColumnAdditionChange;
-import com.google.refine.operations.EngineDependentOperation;
-import com.google.refine.operations.OnError;
-import com.google.refine.operations.OperationRegistry;
-import com.google.refine.operations.cell.TextTransformOperation;
-import com.google.refine.process.LongRunningProcess;
-import com.google.refine.process.Process;
-import com.google.refine.utility.util.ParsingUtilities;
 
 
 public class ColumnAdditionByFetchingURLsOperation extends EngineDependentOperation {

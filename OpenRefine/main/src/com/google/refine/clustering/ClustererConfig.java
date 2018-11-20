@@ -2,7 +2,7 @@ package com.google.refine.clustering;
 
 import org.json.JSONObject;
 
-import com.google.refine.Jsonizable;
+import com.google.refine.commonpart.Jsonizable;
 import com.google.refine.model.Project;
 
 /**

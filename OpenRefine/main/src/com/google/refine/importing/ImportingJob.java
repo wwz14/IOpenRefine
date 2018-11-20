@@ -33,23 +33,22 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.importing;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
-
+import com.google.refine.ProjectManager;
+import com.google.refine.commonpart.Jsonizable;
+import com.google.refine.model.Project;
+import com.google.refine.model.metadata.ProjectMetadata;
+import com.google.refine.utility.util.JSONUtilities;
 import org.apache.commons.io.FileUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONWriter;
 
-import com.google.refine.Jsonizable;
-import com.google.refine.ProjectManager;
-import com.google.refine.model.Project;
-import com.google.refine.model.metadata.ProjectMetadata;
-import com.google.refine.utility.util.JSONUtilities;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
 
 
 public class ImportingJob implements Jsonizable {

@@ -33,13 +33,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.model;
 
-import java.util.Properties;
-
+import com.google.refine.commonpart.Jsonizable;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONWriter;
 
-import com.google.refine.Jsonizable;
+import java.util.Properties;
 
 /**
  * This represents a type from the reconciliation

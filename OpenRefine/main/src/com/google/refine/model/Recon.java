@@ -33,20 +33,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.model;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
+import com.google.refine.commonpart.Jsonizable;
+import com.google.refine.expr.HasFields;
 import org.json.JSONException;
 import org.json.JSONWriter;
 
-import com.google.refine.Jsonizable;
-import com.google.refine.expr.HasFields;
+import java.util.*;
 
 public class Recon implements HasFields, Jsonizable {
     

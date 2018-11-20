@@ -33,27 +33,25 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.model;
 
-import java.io.Writer;
-import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Properties;
-
+import com.google.refine.InterProjectModel;
+import com.google.refine.commonpart.Jsonizable;
+import com.google.refine.model.recon.ReconConfig;
 import com.google.refine.utility.util.JSONUtilities;
 import com.google.refine.utility.util.ParsingUtilities;
+import io.frictionlessdata.tableschema.Field;
+import io.frictionlessdata.tableschema.TypeInferrer;
+import io.frictionlessdata.tableschema.exceptions.ConstraintsException;
+import io.frictionlessdata.tableschema.exceptions.InvalidCastException;
 import org.apache.commons.lang3.StringUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONWriter;
 
-import com.google.refine.InterProjectModel;
-import com.google.refine.Jsonizable;
-import com.google.refine.model.recon.ReconConfig;
-
-import io.frictionlessdata.tableschema.Field;
-import io.frictionlessdata.tableschema.TypeInferrer;
-import io.frictionlessdata.tableschema.exceptions.ConstraintsException;
-import io.frictionlessdata.tableschema.exceptions.InvalidCastException;
+import java.io.Writer;
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
 
 public class Column implements Jsonizable {
     final private int       _cellIndex;

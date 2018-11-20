@@ -33,27 +33,21 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.model.recon;
 
-import java.io.Writer;
-import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-
+import com.google.refine.commonpart.Jsonizable;
 import com.google.refine.model.Cell;
 import com.google.refine.model.Project;
 import com.google.refine.model.Recon;
 import com.google.refine.model.Row;
+import edu.mit.simile.butterfly.ButterflyModule;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.refine.Jsonizable;
-
-import edu.mit.simile.butterfly.ButterflyModule;
+import java.io.Writer;
+import java.lang.reflect.Method;
+import java.util.*;
 
 abstract public class ReconConfig implements Jsonizable {
     final static protected Logger LOGGER = LoggerFactory.getLogger("recon-config");

@@ -33,16 +33,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.model;
 
-import java.io.Writer;
-import java.util.Properties;
-
+import com.google.refine.commonpart.Jsonizable;
+import com.google.refine.expr.ExpressionUtils;
+import com.google.refine.model.Recon.Judgment;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONWriter;
 
-import com.google.refine.Jsonizable;
-import com.google.refine.expr.ExpressionUtils;
-import com.google.refine.model.Recon.Judgment;
+import java.io.Writer;
+import java.util.Properties;
 
 public class ReconStats implements Jsonizable {
     static public ReconStats load(JSONObject obj) throws Exception {

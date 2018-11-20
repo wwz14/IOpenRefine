@@ -1,15 +1,8 @@
 package com.google.refine.importing;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.io.StringWriter;
-import java.io.Writer;
-import java.util.Properties;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
+import com.google.refine.RefineServlet;
+import com.google.refine.commonpart.Jsonizable;
+import com.google.refine.utility.util.ParsingUtilities;
 import org.apache.velocity.VelocityContext;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -17,9 +10,14 @@ import org.json.JSONWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.refine.Jsonizable;
-import com.google.refine.RefineServlet;
-import com.google.refine.utility.util.ParsingUtilities;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.io.Writer;
+import java.util.Properties;
 
 abstract public class HttpUtilities {
     final static protected Logger logger = LoggerFactory.getLogger("command");

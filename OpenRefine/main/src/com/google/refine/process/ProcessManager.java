@@ -33,15 +33,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.process;
 
+import com.google.refine.commonpart.Jsonizable;
+import org.json.JSONException;
+import org.json.JSONWriter;
+
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
-
-import org.json.JSONException;
-import org.json.JSONWriter;
-
-import com.google.refine.Jsonizable;
 
 public class ProcessManager implements Jsonizable {
     protected List<Process> _processes = Collections.synchronizedList(new LinkedList<Process>());

@@ -33,7 +33,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.process;
 
-import com.google.refine.Jsonizable;
+import com.google.refine.commonpart.Jsonizable;
 
 public abstract class Process implements Jsonizable {
     abstract public boolean isImmediate();

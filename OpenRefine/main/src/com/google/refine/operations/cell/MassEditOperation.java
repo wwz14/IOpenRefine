@@ -33,34 +33,25 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.operations.cell;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.json.JSONWriter;
-
-import com.google.refine.Jsonizable;
 import com.google.refine.browsing.EngineConfig;
 import com.google.refine.browsing.RowVisitor;
+import com.google.refine.commonpart.Jsonizable;
 import com.google.refine.expr.Evaluable;
 import com.google.refine.expr.ExpressionUtils;
 import com.google.refine.expr.MetaParser;
-import com.google.refine.model.AbstractOperation;
-import com.google.refine.model.Cell;
-import com.google.refine.model.Column;
-import com.google.refine.model.Project;
-import com.google.refine.model.Row;
+import com.google.refine.model.*;
 import com.google.refine.model.changes.CellChange;
 import com.google.refine.operations.EngineDependentMassCellOperation;
 import com.google.refine.operations.OperationRegistry;
 import com.google.refine.utility.util.ParsingUtilities;
 import com.google.refine.utility.util.StringUtils;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONWriter;
+
+import java.io.Serializable;
+import java.util.*;
 
 public class MassEditOperation extends EngineDependentMassCellOperation {
     final protected String         _expression;

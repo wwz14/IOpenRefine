@@ -43,7 +43,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONWriter;
 
-import com.google.refine.Jsonizable;
+import com.google.refine.commonpart.Jsonizable;
 import com.google.refine.browsing.facets.Facet;
 import com.google.refine.browsing.util.ConjunctiveFilteredRecords;
 import com.google.refine.browsing.util.ConjunctiveFilteredRows;

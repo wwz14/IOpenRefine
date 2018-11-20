@@ -491,6 +491,24 @@
       <version>1.7.1</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>org.openrefine</groupId>
+          <artifactId>util</artifactId>
+          <version>3.1-SNAPSHOT</version>
+          <scope>compile</scope>
+      </dependency>
+      <dependency>
+          <groupId>org.openrefine</groupId>
+          <artifactId>command</artifactId>
+          <version>3.1-SNAPSHOT</version>
+          <scope>compile</scope>
+      </dependency>
+      <dependency>
+          <groupId>org.openrefine</groupId>
+          <artifactId>io</artifactId>
+          <version>3.1-SNAPSHOT</version>
+          <scope>compile</scope>
+      </dependency>
   </dependencies>
 
 </project>

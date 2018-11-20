@@ -113,7 +113,7 @@ public class DataPackageMetadata extends AbstractMetadata {
         return _pkg.getJson();
     }
     
-    public Package getPackage() {
+    public java.lang.Package getPackage() {
         return _pkg;
     }
 

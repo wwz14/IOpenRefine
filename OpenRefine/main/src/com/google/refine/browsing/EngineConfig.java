@@ -1,16 +1,5 @@
 package com.google.refine.browsing;
 
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Properties;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.json.JSONWriter;
-
-import com.google.refine.Jsonizable;
 import com.google.refine.browsing.Engine.Mode;
 import com.google.refine.browsing.facets.FacetConfig;
 import com.google.refine.browsing.facets.ListFacet.ListFacetConfig;
@@ -18,6 +7,16 @@ import com.google.refine.browsing.facets.RangeFacet.RangeFacetConfig;
 import com.google.refine.browsing.facets.ScatterplotFacet.ScatterplotFacetConfig;
 import com.google.refine.browsing.facets.TextSearchFacet.TextSearchFacetConfig;
 import com.google.refine.browsing.facets.TimeRangeFacet.TimeRangeFacetConfig;
+import com.google.refine.commonpart.Jsonizable;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONWriter;
+
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Properties;
 
 
 public class EngineConfig implements Jsonizable {

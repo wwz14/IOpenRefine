@@ -33,6 +33,17 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine;
 
+import com.google.refine.commands.Command;
+import com.google.refine.importing.ImportingManager;
+import com.google.refine.io.FileProjectManager;
+import edu.mit.simile.butterfly.Butterfly;
+import edu.mit.simile.butterfly.ButterflyModule;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -44,20 +55,6 @@ import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.google.refine.commands.Command;
-import com.google.refine.importing.ImportingManager;
-import com.google.refine.io.FileProjectManager;
-
-import edu.mit.simile.butterfly.Butterfly;
-import edu.mit.simile.butterfly.ButterflyModule;
 
 public class RefineServlet extends Butterfly {
     static private String ASSIGNED_VERSION = "3.1-beta";
@@ -286,7 +283,7 @@ public class RefineServlet extends Butterfly {
      * Register a single command. Used by extensions.
      *
      * @param module the module the command belongs to
-     * @param name command verb for command
+     * @param  commandName command verb for command
      * @param commandObject object implementing the command
      *            
      * @return true if command was loaded and registered successfully

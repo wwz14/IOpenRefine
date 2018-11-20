@@ -33,7 +33,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.model;
 
-import com.google.refine.Jsonizable;
+import com.google.refine.commonpart.Jsonizable;
 
 public interface OverlayModel extends Jsonizable {
     public void onBeforeSave(Project project);

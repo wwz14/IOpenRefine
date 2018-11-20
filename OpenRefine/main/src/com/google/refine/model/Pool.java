@@ -33,25 +33,17 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.model;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.LineNumberReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.Reader;
-import java.io.Writer;
+import com.google.refine.RefineServlet;
+import com.google.refine.commonpart.Jsonizable;
+import org.json.JSONException;
+import org.json.JSONWriter;
+
+import java.io.*;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Properties;
-
-import org.json.JSONException;
-import org.json.JSONWriter;
-
-import com.google.refine.Jsonizable;
-import com.google.refine.RefineServlet;
 
 /**
  * A serializable pool of ReconCandidates indexed by ID.

@@ -33,9 +33,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.grel;
 
-import java.util.Properties;
+import com.google.refine.commonpart.Jsonizable;
 
-import com.google.refine.Jsonizable;
+import java.util.Properties;
 
 /**
  * Interface for functions. When a function is called, its arguments have already

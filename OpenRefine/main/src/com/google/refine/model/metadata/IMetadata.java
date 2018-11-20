@@ -1,15 +1,14 @@
 package com.google.refine.model.metadata;
 
-import java.io.File;
-import java.io.InputStream;
-import java.time.LocalDateTime;
-import java.util.List;
-
+import com.google.refine.commonpart.Jsonizable;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONWriter;
 
-import com.google.refine.Jsonizable;
+import java.io.File;
+import java.io.InputStream;
+import java.time.LocalDateTime;
+import java.util.List;
 /**
  * Interface to import/export metadata 
  */

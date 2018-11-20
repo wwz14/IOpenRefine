@@ -104,5 +104,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-support:1.7.1" level="project" />
     <orderEntry type="module" module-name="commonpart" />
     <orderEntry type="module" module-name="main" />
+    <orderEntry type="module" module-name="command" />
+    <orderEntry type="module" module-name="io" />
   </component>
 </module>

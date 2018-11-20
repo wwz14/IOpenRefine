@@ -33,12 +33,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.model;
 
-import java.util.Properties;
-
-import com.google.refine.Jsonizable;
+import com.google.refine.commonpart.Jsonizable;
 import com.google.refine.process.HistoryEntry;
 import com.google.refine.process.Process;
 import com.google.refine.process.QuickHistoryEntryProcess;
+
+import java.util.Properties;
 
 /*
  *  An abstract operation can be applied to different but similar

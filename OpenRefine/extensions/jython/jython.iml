@@ -86,6 +86,10 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.metaweb:lessen:1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.wcohen:secondstring:20100303" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.colloquial:arithcode:1.1" level="project" />
+    <orderEntry type="module" module-name="util" scope="PROVIDED" />
+    <orderEntry type="module" module-name="commonpart" scope="PROVIDED" />
+    <orderEntry type="module" module-name="command" scope="PROVIDED" />
+    <orderEntry type="module" module-name="io" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" name="Maven: org.python:jython-standalone:2.7.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.9.10" level="project" />

@@ -33,6 +33,18 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.model;
 
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.JsonToken;
+import com.google.refine.commonpart.Jsonizable;
+import com.google.refine.expr.EvalError;
+import com.google.refine.expr.ExpressionUtils;
+import com.google.refine.expr.HasFields;
+import com.google.refine.utility.util.ParsingUtilities;
+import com.google.refine.utility.util.StringUtils;
+import org.json.JSONException;
+import org.json.JSONWriter;
+
 import java.io.Serializable;
 import java.io.Writer;
 import java.time.Instant;
@@ -40,20 +52,6 @@ import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 import java.util.Properties;
-
-import com.google.refine.utility.util.ParsingUtilities;
-import com.google.refine.utility.util.StringUtils;
-import org.json.JSONException;
-import org.json.JSONWriter;
-
-import com.fasterxml.jackson.core.JsonFactory;
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonToken;
-
-import com.google.refine.Jsonizable;
-import com.google.refine.expr.EvalError;
-import com.google.refine.expr.ExpressionUtils;
-import com.google.refine.expr.HasFields;
 
 public class Cell implements HasFields, Jsonizable {
     final public Serializable   value;

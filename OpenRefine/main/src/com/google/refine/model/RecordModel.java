@@ -33,20 +33,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.model;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Properties;
-
+import com.google.refine.commonpart.Jsonizable;
+import com.google.refine.expr.ExpressionUtils;
 import org.json.JSONException;
 import org.json.JSONWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.refine.Jsonizable;
-import com.google.refine.expr.ExpressionUtils;
+import java.util.*;
 
 public class RecordModel implements Jsonizable {
     final static Logger logger = LoggerFactory.getLogger("RecordModel");

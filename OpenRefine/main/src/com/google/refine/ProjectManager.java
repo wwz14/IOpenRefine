@@ -33,19 +33,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
+import com.google.refine.history.HistoryEntryManager;
+import com.google.refine.model.Project;
+import com.google.refine.model.metadata.IMetadata;
+import com.google.refine.model.metadata.ProjectMetadata;
+import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.utility.preference.TopList;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.tools.tar.TarOutputStream;
 import org.json.JSONArray;
@@ -54,12 +47,13 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.refine.history.HistoryEntryManager;
-import com.google.refine.model.Project;
-import com.google.refine.model.metadata.IMetadata;
-import com.google.refine.model.metadata.ProjectMetadata;
-import com.google.refine.utility.preference.PreferenceStore;
-import com.google.refine.utility.preference.TopList;
+import java.io.IOException;
+import java.io.InputStream;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.temporal.ChronoUnit;
+import java.util.*;
+import java.util.Map.Entry;
 
 /**
  * ProjectManager is responsible for loading and saving the workspace and projects.
@@ -68,17 +62,17 @@ import com.google.refine.utility.preference.TopList;
  */
 public abstract class ProjectManager {
     // last n expressions used across all projects
-    static protected final int s_expressionHistoryMax = 100;
+    static public final int s_expressionHistoryMax = 100;
 
     // If a project has been idle this long, flush it from memory
-    static protected final int PROJECT_FLUSH_DELAY = 1000 * 60 * 15; // 15 minutes
+    static public final int PROJECT_FLUSH_DELAY = 1000 * 60 * 15; // 15 minutes
     
     // Don't spend more than this much time saving projects if doing a quick save
-    static protected final int QUICK_SAVE_MAX_TIME = 1000 * 30; // 30 secs
+    static public final int QUICK_SAVE_MAX_TIME = 1000 * 30; // 30 secs
 
-    protected Map<Long, ProjectMetadata> _projectsMetadata;
-    protected Map<String, Integer> _projectsTags;// TagName, number of projects having that tag
-    protected PreferenceStore            _preferenceStore;
+    public Map<Long, ProjectMetadata> _projectsMetadata;
+    public Map<String, Integer> _projectsTags;// TagName, number of projects having that tag
+    public PreferenceStore            _preferenceStore;
 
     final static Logger logger = LoggerFactory.getLogger("ProjectManager");
 

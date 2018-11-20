@@ -33,25 +33,24 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.process;
 
-import java.io.Writer;
-import java.time.ZoneId;
-import java.time.OffsetDateTime;
-import java.util.Properties;
-
+import com.google.refine.ProjectManager;
+import com.google.refine.commonpart.Jsonizable;
 import com.google.refine.history.Change;
 import com.google.refine.history.HistoryEntryManager;
+import com.google.refine.model.AbstractOperation;
+import com.google.refine.model.Project;
+import com.google.refine.operations.OperationRegistry;
+import com.google.refine.utility.util.ParsingUtilities;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.refine.Jsonizable;
-import com.google.refine.ProjectManager;
-import com.google.refine.model.AbstractOperation;
-import com.google.refine.model.Project;
-import com.google.refine.operations.OperationRegistry;
-import com.google.refine.utility.util.ParsingUtilities;
+import java.io.Writer;
+import java.time.OffsetDateTime;
+import java.time.ZoneId;
+import java.util.Properties;
 
 /**
  * This is the metadata of a Change. It's small, so we can load it in order to

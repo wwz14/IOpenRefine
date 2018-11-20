@@ -52,8 +52,8 @@ public class MetadataFactory {
         Resource resource = SchemaExtension.createResource(project.getMetadata().getName(),
                 project.columnModel);
         try {
-            pkg.addResource(resource);
-            
+             pkg.addResource(resource);
+
             putValue(pkg, Package.JSON_KEY_NAME, pmd.getName());
             putValue(pkg, PackageExtension.JSON_KEY_LAST_UPDATED, ParsingUtilities.localDateToString(pmd.getModified()));
             putValue(pkg, PackageExtension.JSON_KEY_DESCRIPTION, pmd.getDescription());

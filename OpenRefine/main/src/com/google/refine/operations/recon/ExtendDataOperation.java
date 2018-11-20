@@ -33,39 +33,26 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.operations.recon;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.json.JSONWriter;
-
 import com.google.refine.browsing.Engine;
 import com.google.refine.browsing.EngineConfig;
 import com.google.refine.browsing.FilteredRows;
 import com.google.refine.browsing.RowVisitor;
-import com.google.refine.process.HistoryEntry;
-import com.google.refine.model.AbstractOperation;
-import com.google.refine.model.Cell;
-import com.google.refine.model.Column;
-import com.google.refine.model.Project;
-import com.google.refine.model.ReconCandidate;
-import com.google.refine.model.ReconType;
-import com.google.refine.model.Row;
-import com.google.refine.common.commonpackage.model.changes.CellAtRow;
+import com.google.refine.model.*;
+import com.google.refine.model.changes.CellAtRow;
 import com.google.refine.model.changes.DataExtensionChange;
 import com.google.refine.model.recon.ReconciledDataExtensionJob;
 import com.google.refine.model.recon.ReconciledDataExtensionJob.ColumnInfo;
 import com.google.refine.model.recon.ReconciledDataExtensionJob.DataExtension;
 import com.google.refine.operations.EngineDependentOperation;
 import com.google.refine.operations.OperationRegistry;
+import com.google.refine.process.HistoryEntry;
 import com.google.refine.process.LongRunningProcess;
 import com.google.refine.process.Process;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONWriter;
+
+import java.util.*;
 
 public class ExtendDataOperation extends EngineDependentOperation {
     final protected String     _baseColumnName;

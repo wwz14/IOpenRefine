@@ -27,8 +27,8 @@ import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.SheetsScopes;
 
 import com.google.refine.ProjectManager;
-import com.google.refine.preference.PreferenceStore;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.utility.util.ParsingUtilities;
 
 import edu.mit.simile.butterfly.ButterflyModule;
 

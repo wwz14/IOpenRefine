@@ -35,8 +35,6 @@ import java.util.Properties;
 
 import javax.servlet.ServletConfig;
 
-import org.json.JSONException;
-import org.json.JSONWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

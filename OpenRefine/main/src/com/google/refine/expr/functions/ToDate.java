@@ -52,7 +52,7 @@ import com.google.refine.expr.util.CalendarParserException;
 import com.google.refine.expr.util.CalendarParser;
 import com.google.refine.grel.ControlFunctionRegistry;
 import com.google.refine.grel.Function;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class ToDate implements Function {
 

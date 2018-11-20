@@ -47,7 +47,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.google.refine.tests.RefineTest;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class ParsingUtilitiesTests extends RefineTest {
     

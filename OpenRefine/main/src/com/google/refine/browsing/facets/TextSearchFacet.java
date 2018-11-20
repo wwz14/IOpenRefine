@@ -50,7 +50,7 @@ import com.google.refine.expr.Evaluable;
 import com.google.refine.grel.ast.VariableExpr;
 import com.google.refine.model.Column;
 import com.google.refine.model.Project;
-import com.google.refine.util.PatternSyntaxExceptionParser;
+import com.google.refine.utility.util.PatternSyntaxExceptionParser;
 
 public class TextSearchFacet implements Facet {
     

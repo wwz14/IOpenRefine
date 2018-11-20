@@ -51,7 +51,7 @@ import com.google.refine.model.Project;
 import com.google.refine.model.Row;
 import com.google.refine.model.changes.MassRowChange;
 import com.google.refine.operations.OperationRegistry;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class MultiValuedCellSplitOperation extends AbstractOperation {
     final protected String  _columnName;

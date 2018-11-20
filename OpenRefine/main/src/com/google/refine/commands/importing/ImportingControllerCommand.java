@@ -47,7 +47,7 @@ import com.google.refine.commands.Command;
 import com.google.refine.importing.HttpUtilities;
 import com.google.refine.importing.ImportingController;
 import com.google.refine.importing.ImportingManager;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class ImportingControllerCommand extends Command {
 

@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
 
 import com.google.refine.Jsonizable;
 import com.google.refine.RefineServlet;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 abstract public class HttpUtilities {
     final static protected Logger logger = LoggerFactory.getLogger("command");

@@ -60,9 +60,9 @@ import com.google.refine.model.Column;
 import com.google.refine.model.Project;
 import com.google.refine.model.Recon;
 import com.google.refine.model.Row;
-import com.google.refine.preference.PreferenceStore;
-import com.google.refine.util.JSONUtilities;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.utility.util.JSONUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 abstract public class CustomizableTabularExporterUtilities {
     static public void exportRows(

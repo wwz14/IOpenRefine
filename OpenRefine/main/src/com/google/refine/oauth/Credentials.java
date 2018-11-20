@@ -40,7 +40,7 @@ import javax.servlet.http.HttpServletResponse;
 import oauth.signpost.OAuth;
 import oauth.signpost.http.HttpParameters;
 
-import com.google.refine.util.CookiesUtilities;
+import com.google.refine.utility.util.CookiesUtilities;
 
 public class Credentials {
 

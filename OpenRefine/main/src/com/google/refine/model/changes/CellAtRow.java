@@ -38,7 +38,7 @@ import java.io.Writer;
 import java.util.Properties;
 
 import com.google.refine.model.Cell;
-import com.google.refine.util.Pool;
+import com.google.refine.utility.util.Pool;
 
 public class CellAtRow {
 

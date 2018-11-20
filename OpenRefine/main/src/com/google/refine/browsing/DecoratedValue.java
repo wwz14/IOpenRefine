@@ -40,7 +40,7 @@ import org.json.JSONException;
 import org.json.JSONWriter;
 
 import com.google.refine.Jsonizable;
-import com.google.refine.util.StringUtils;
+import com.google.refine.utility.util.StringUtils;
 
 /**
  * Store a value and its text label, in case the value is not a string itself.

@@ -38,8 +38,8 @@ import com.google.refine.importing.ImportingJob;
 import com.google.refine.importing.ImportingManager;
 import com.google.refine.model.Project;
 import com.google.refine.model.metadata.ProjectMetadata;
-import com.google.refine.util.JSONUtilities;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.JSONUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class GDataImportingController implements ImportingController {
     private static final Logger logger = LoggerFactory.getLogger("GDataImportingController");

@@ -46,7 +46,7 @@ import com.google.refine.model.Cell;
 import com.google.refine.model.Project;
 import com.google.refine.model.Recon;
 import com.google.refine.model.ReconCandidate;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class TestingData {
 

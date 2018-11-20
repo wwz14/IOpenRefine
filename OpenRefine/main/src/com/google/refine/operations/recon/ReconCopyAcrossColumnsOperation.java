@@ -62,7 +62,7 @@ import com.google.refine.model.changes.CellChange;
 import com.google.refine.model.changes.MassChange;
 import com.google.refine.operations.EngineDependentOperation;
 import com.google.refine.operations.OperationRegistry;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class ReconCopyAcrossColumnsOperation extends EngineDependentOperation {
     final protected String   _fromColumnName;

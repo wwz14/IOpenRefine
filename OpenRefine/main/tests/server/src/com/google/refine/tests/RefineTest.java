@@ -67,7 +67,7 @@ import com.google.refine.model.Project;
 import com.google.refine.model.Row;
 import com.google.refine.model.metadata.ProjectMetadata;
 import com.google.refine.tests.util.TestUtils;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 import edu.mit.simile.butterfly.ButterflyModule;
 
@@ -92,8 +92,8 @@ public class RefineTest {
             File jsonPath = new File(workspaceDir, "workspace.json");
             FileUtils.writeStringToFile(jsonPath, "{\"projectIDs\":[]\n" + 
                     ",\"preferences\":{\"entries\":{\"scripting.starred-expressions\":" +
-                    "{\"class\":\"com.google.refine.preference.TopList\",\"top\":2147483647," +
-                    "\"list\":[]},\"scripting.expressions\":{\"class\":\"com.google.refine.preference.TopList\",\"top\":100,\"list\":[]}}}}");
+                    "{\"class\":\"com.google.refine.utility.preference.TopList\",\"top\":2147483647," +
+                    "\"list\":[]},\"scripting.expressions\":{\"class\":\"com.google.refine.utility.preference.TopList\",\"top\":100,\"list\":[]}}}}");
             FileProjectManager.initialize(workspaceDir);
             
 

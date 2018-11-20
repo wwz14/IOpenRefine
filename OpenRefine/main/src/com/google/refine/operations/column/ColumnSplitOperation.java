@@ -59,7 +59,7 @@ import com.google.refine.model.Row;
 import com.google.refine.model.changes.ColumnSplitChange;
 import com.google.refine.operations.EngineDependentOperation;
 import com.google.refine.operations.OperationRegistry;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class ColumnSplitOperation extends EngineDependentOperation {
     final protected String     _columnName;

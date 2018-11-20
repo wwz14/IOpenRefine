@@ -45,7 +45,7 @@ import com.google.refine.exporters.CustomizableTabularExporterUtilities;
 import com.google.refine.exporters.TabularSerializer;
 import com.google.refine.exporters.WriterExporter;
 import com.google.refine.model.Project;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class SqlExporter implements WriterExporter {
     

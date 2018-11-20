@@ -37,7 +37,7 @@ import org.json.JSONObject;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class PreviewWikibaseSchemaCommandTest extends SchemaCommandTest {
 

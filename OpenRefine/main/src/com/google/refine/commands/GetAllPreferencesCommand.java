@@ -44,7 +44,7 @@ import org.json.JSONWriter;
 
 import com.google.refine.ProjectManager;
 import com.google.refine.model.Project;
-import com.google.refine.preference.PreferenceStore;
+import com.google.refine.utility.preference.PreferenceStore;
 
 public class GetAllPreferencesCommand extends Command {
     @Override

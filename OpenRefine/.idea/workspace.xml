@@ -1,59 +1,268 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6de0bb3f-e234-46de-8521-8fb5bc8cd87b" name="Default Changelist" comment="" />
+    <list default="true" id="a657799a-1d12-41b8-a454-1249de036a12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/commonpart/commonpart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonpart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonpart/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/IDEs/eclipse/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/IDEs/netbeans/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/IDEs/netbeans/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/IDEs/netbeans/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/IDEs/netbeans/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/IDEs/netbeans/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/IDEs/netbeans/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local-src/arithcode-1.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local-src/butterfly-1.0.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local-src/datapackage-java-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local-src/opencsv-2.4-SNAPSHOT-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local-src/secondstring-20100303-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local-src/tableschema-java-1.0-SNAPSHOT-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local-src/vicino-1.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local/arithcode-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local/butterfly-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local/datapackage-java-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local/marc4j-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local/opencsv-2.4-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local/secondstring-20100303.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local/tableschema-java-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/lib-local/vicino-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/resources/schemas/TableSchemaValidator.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/resources/schemas/datapackage-template.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib_local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib_local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib_local1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib_local1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib_local_src.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib_local_src.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib_local_src1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib_local_src1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/broker/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/broker/core/core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/database/database.iml" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/database/database.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/database/src/com/google/refine/extension/database/DatabaseImportController.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/database/src/com/google/refine/extension/database/DatabaseImportController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/database/src/com/google/refine/extension/database/DatabaseModuleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/database/src/com/google/refine/extension/database/DatabaseModuleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/extensions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gdata/gdata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/gdata/gdata.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gdata/src/com/google/refine/extension/gdata/FusionTableImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/gdata/src/com/google/refine/extension/gdata/FusionTableImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gdata/src/com/google/refine/extension/gdata/GDataImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/gdata/src/com/google/refine/extension/gdata/GDataImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gdata/src/com/google/refine/extension/gdata/GDataImportingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/gdata/src/com/google/refine/extension/gdata/GDataImportingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gdata/src/com/google/refine/extension/gdata/GoogleAPIExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/gdata/src/com/google/refine/extension/gdata/GoogleAPIExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/gdata/src/com/google/refine/extension/gdata/TokenCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/gdata/src/com/google/refine/extension/gdata/TokenCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/jython/jython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/jython/jython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/pc-axis/pc-axis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/pc-axis/pc-axis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/pc-axis/src/com/google/refine/pcaxis/PCAxisImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/pc-axis/src/com/google/refine/pcaxis/PCAxisImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/wikidata/src/org/openrefine/wikidata/commands/SaveWikibaseSchemaCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/wikidata/src/org/openrefine/wikidata/commands/SaveWikibaseSchemaCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/wikidata/src/org/openrefine/wikidata/editing/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/wikidata/src/org/openrefine/wikidata/editing/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/wikidata/src/org/openrefine/wikidata/operations/SaveWikibaseSchemaOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/wikidata/src/org/openrefine/wikidata/operations/SaveWikibaseSchemaOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/wikidata/tests/src/org/openrefine/wikidata/commands/PreviewWikibaseSchemaCommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/wikidata/tests/src/org/openrefine/wikidata/commands/PreviewWikibaseSchemaCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/wikidata/tests/src/org/openrefine/wikidata/schema/WikibaseSchemaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/wikidata/tests/src/org/openrefine/wikidata/schema/WikibaseSchemaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/wikidata/tests/src/org/openrefine/wikidata/testing/TestingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/wikidata/tests/src/org/openrefine/wikidata/testing/TestingData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extensions/wikidata/wikidata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/extensions/wikidata/wikidata.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/ClientSideResourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/commonpart/src/com/google/refine/commonpart/ClientSideResourceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/HttpResponder.java" beforeDir="false" afterPath="$PROJECT_DIR$/commonpart/src/com/google/refine/commonpart/HttpResponder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/Jsonizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/commonpart/src/com/google/refine/commonpart/Jsonizable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/ProjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/ProjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/browsing/DecoratedValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/browsing/DecoratedValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/browsing/facets/ListFacet.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/browsing/facets/ListFacet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/browsing/facets/RangeFacet.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/browsing/facets/RangeFacet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/browsing/facets/TextSearchFacet.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/browsing/facets/TextSearchFacet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/browsing/facets/TimeRangeFacet.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/browsing/facets/TimeRangeFacet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/browsing/util/ExpressionNominalValueGrouper.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/browsing/util/ExpressionNominalValueGrouper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/GetAllPreferencesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/GetAllPreferencesCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/GetPreferenceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/GetPreferenceCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/SetPreferenceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/SetPreferenceCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/cell/EditOneCellCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/cell/EditOneCellCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/cell/MassEditCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/cell/MassEditCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/cell/SplitMultiValueCellsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/cell/SplitMultiValueCellsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/column/ReorderColumnsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/column/ReorderColumnsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/column/SplitColumnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/column/SplitColumnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/expr/GetExpressionHistoryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/expr/GetExpressionHistoryCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/expr/GetStarredExpressionsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/expr/GetStarredExpressionsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/expr/LogExpressionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/expr/LogExpressionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/expr/PreviewExpressionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/expr/PreviewExpressionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/expr/ToggleStarredExpressionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/expr/ToggleStarredExpressionCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/history/ApplyOperationsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/history/ApplyOperationsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/importing/ImportingControllerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/importing/ImportingControllerCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/lang/LoadLanguageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/lang/LoadLanguageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/project/CreateProjectCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/project/CreateProjectCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/project/ImportProjectCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/project/ImportProjectCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/project/ValidateSchemaCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/project/ValidateSchemaCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/recon/ExtendDataCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/recon/ExtendDataCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/recon/GuessTypesOfColumnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/recon/GuessTypesOfColumnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/recon/PreviewExtendDataCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/recon/PreviewExtendDataCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/row/GetRowsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/row/GetRowsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/commands/row/ReorderRowsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/commands/row/ReorderRowsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/exporters/CsvExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/exporters/CsvExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/exporters/CustomizableTabularExporterUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/exporters/CustomizableTabularExporterUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/exporters/OdsExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/exporters/OdsExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/exporters/TemplatingExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/exporters/TemplatingExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/exporters/XlsExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/exporters/XlsExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/exporters/sql/SqlCreateBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/exporters/sql/SqlCreateBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/exporters/sql/SqlExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/exporters/sql/SqlExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/exporters/sql/SqlInsertBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/exporters/sql/SqlInsertBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/ToDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/ToDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/ToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/ToString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/arrays/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/arrays/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/arrays/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/arrays/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/arrays/Uniques.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/arrays/Uniques.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/strings/Escape.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/expr/functions/strings/Escape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/expr/util/CalendarParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/expr/util/CalendarParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/ExcelImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/ExcelImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/FixedWidthImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/FixedWidthImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/ImporterUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/ImporterUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/ImportingParserBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/ImportingParserBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/JsonImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/JsonImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/LineBasedImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/LineBasedImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/MarcImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/MarcImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/OdsImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/OdsImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/SeparatorBasedImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/SeparatorBasedImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/TabularImportingParserBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/TabularImportingParserBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/WikitextImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/WikitextImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/XmlImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/XmlImporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importers/tree/TreeImportingParserBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importers/tree/TreeImportingParserBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importing/DefaultImportingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importing/DefaultImportingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importing/HttpUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importing/HttpUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importing/ImportingJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importing/ImportingJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importing/ImportingUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importing/ImportingUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/io/FileHistoryEntryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/com/google/refine/io/FileHistoryEntryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/io/FileProjectManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/com/google/refine/io/FileProjectManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/io/ProjectMetadataUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/com/google/refine/io/ProjectMetadataUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/io/ProjectUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/io/src/com/google/refine/io/ProjectUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/logging/IndentingLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/logging/src/com/google/refine/logging/IndentingLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/Column.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/Column.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/ColumnGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/ColumnGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/changes/CellAtRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/changes/CellAtRow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/changes/DataExtensionChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/changes/DataExtensionChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/changes/ReconChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/changes/ReconChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/metadata/MetadataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/metadata/MetadataFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/metadata/ProjectMetadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/metadata/ProjectMetadata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/metadata/validator/ValidatorInspector.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/metadata/validator/ValidatorInspector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/recon/ReconciledDataExtensionJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/recon/ReconciledDataExtensionJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/recon/StandardReconConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/recon/StandardReconConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/oauth/Credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/oauth/Credentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/operations/cell/KeyValueColumnizeOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/operations/cell/KeyValueColumnizeOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/operations/cell/MassEditOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/operations/cell/MassEditOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/operations/cell/MultiValuedCellSplitOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/operations/cell/MultiValuedCellSplitOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/operations/cell/TransposeColumnsIntoRowsOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/operations/cell/TransposeColumnsIntoRowsOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/operations/column/ColumnAdditionByFetchingURLsOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/operations/column/ColumnAdditionByFetchingURLsOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/operations/column/ColumnReorderOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/operations/column/ColumnReorderOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/operations/column/ColumnSplitOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/operations/column/ColumnSplitOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/operations/recon/ReconCopyAcrossColumnsOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/operations/recon/ReconCopyAcrossColumnsOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/preference/PreferenceStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/google/refine/utility/preference/PreferenceStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/preference/TopList.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/google/refine/utility/preference/TopList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/process/HistoryEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/process/HistoryEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/util/CookiesUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/google/refine/utility/util/CookiesUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/util/IOUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/google/refine/utility/util/IOUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/util/IndentWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/google/refine/utility/util/IndentWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/util/JSONUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/google/refine/utility/util/JSONUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/util/JSObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/google/refine/utility/util/JSObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/util/ParsingUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/google/refine/utility/util/ParsingUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/util/PatternSyntaxExceptionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/google/refine/utility/util/PatternSyntaxExceptionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/util/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/google/refine/utility/util/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/util/TrackingInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/com/google/refine/utility/util/TrackingInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/RefineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/RefineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/commands/project/ValidateOperationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/commands/project/ValidateOperationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importers/ExcelImporterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importers/ExcelImporterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importers/FixedWidthImporterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importers/FixedWidthImporterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importers/JsonImporterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importers/JsonImporterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importers/RdfTripleImporterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importers/RdfTripleImporterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importers/XmlImporterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importers/XmlImporterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importing/ImportingUtilitiesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/importing/ImportingUtilitiesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/operations/cell/MassOperationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/operations/cell/MassOperationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/preference/PreferenceStoreTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/preference/PreferenceStoreTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/preference/TopListTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/preference/TopListTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/process/ProcessManagerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/process/ProcessManagerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/util/ParsingUtilitiesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/util/ParsingUtilitiesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/util/PatternSyntaxExceptionParserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/util/PatternSyntaxExceptionParserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/util/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/tests/server/src/com/google/refine/tests/util/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openrefine.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packaging/packaging.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/extensions/pc-axis/module/MOD-INF/classes/" />
-    <ignored path="$PROJECT_DIR$/extensions/pc-axis/target/" />
+    <ignored path="$PROJECT_DIR$/extensions/database/module/MOD-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/extensions/database/target/" />
+    <ignored path="$PROJECT_DIR$/packaging/target/" />
+    <ignored path="$PROJECT_DIR$/main/webapp/WEB-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/main/target/" />
+    <ignored path="$PROJECT_DIR$/server/classes/" />
+    <ignored path="$PROJECT_DIR$/server/target/" />
+    <ignored path="$PROJECT_DIR$/extensions/gdata/module/MOD-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/extensions/gdata/target/" />
     <ignored path="$PROJECT_DIR$/extensions/wikidata/module/MOD-INF/classes/" />
     <ignored path="$PROJECT_DIR$/extensions/wikidata/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/server/classes/" />
-    <ignored path="$PROJECT_DIR$/server/target/" />
-    <ignored path="$PROJECT_DIR$/packaging/target/" />
+    <ignored path="$PROJECT_DIR$/extensions/pc-axis/module/MOD-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/extensions/pc-axis/target/" />
     <ignored path="$PROJECT_DIR$/extensions/target/" />
-    <ignored path="$PROJECT_DIR$/extensions/gdata/module/MOD-INF/classes/" />
-    <ignored path="$PROJECT_DIR$/extensions/gdata/target/" />
-    <ignored path="$PROJECT_DIR$/main/webapp/WEB-INF/classes/" />
-    <ignored path="$PROJECT_DIR$/main/target/" />
-    <ignored path="$PROJECT_DIR$/extensions/database/module/MOD-INF/classes/" />
-    <ignored path="$PROJECT_DIR$/extensions/database/target/" />
     <ignored path="$PROJECT_DIR$/extensions/jython/module/MOD-INF/classes/" />
     <ignored path="$PROJECT_DIR$/extensions/jython/target/" />
+    <ignored path="$PROJECT_DIR$/logging/webapp/WEB-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/logging/target/" />
+    <ignored path="$PROJECT_DIR$/io/target/" />
+    <ignored path="$PROJECT_DIR$/io/webapp/WEB-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/util/webapp/WEB-INF/classes/" />
+    <ignored path="$PROJECT_DIR$/util/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/commonpart/target/" />
+    <ignored path="$PROJECT_DIR$/commonpart/webapp/WEB-INF/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="877970182">
+    <session id="1509406471">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="53" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="39" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="53" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="39" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="431" />
+          <entry key="xml" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="14" />
+          <entry key="JAVA" value="431" />
+          <entry key="XML" value="112" />
         </counts>
       </usages-collector>
     </session>
@@ -61,19 +270,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/commands/importing/CancelImportingJobCommand.java">
+        <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/RefineServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="44" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/commands/history/ApplyOperationsCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+            <state relative-caret-position="450">
+              <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,31 +282,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/com/google/refine/Refine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/ClientSideResourceManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/HttpResponder.java">
+        <entry file="file://$PROJECT_DIR$/commonpart/src/com/google/refine/commonpart/HttpResponder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
@@ -118,10 +294,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/InterProjectModel.java">
+        <entry file="file://$PROJECT_DIR$/commonpart/src/com/google/refine/commonpart/Jsonizable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,28 +306,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/preference/PreferenceStore.java">
+        <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/utility/preference/PreferenceStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/src/module-info.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/Jsonizable.java">
+        <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/utility/preference/TopList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/utility/util/JSONUtilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commonpart/src/com/google/refine/commonpart/ClientSideResourceManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/ProjectManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,10 +357,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/RefineServlet.java">
+        <entry file="file://$PROJECT_DIR$/commonpart/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="54" column="42" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+            <state relative-caret-position="60">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commonpart/src/module-info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -174,30 +380,54 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>HistoryProcess</find>
+      <find>main</find>
     </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/extensions/jython/src</dir>
-    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main/src/com/google/refine/common/expression/expr/Binder.java" />
-        <option value="$PROJECT_DIR$/main/src/com/google/refine/common/model/Pool.java" />
-        <option value="$PROJECT_DIR$/main/src/com/google/refine/process/ProcessManager.java" />
-        <option value="$PROJECT_DIR$/main/src/com/google/refine/process/HistoryProcess.java" />
-        <option value="$PROJECT_DIR$/main/src/com/google/refine/history/HistoryEntryManager.java" />
-        <option value="$PROJECT_DIR$/main/src/com/google/refine/history/History.java" />
+        <option value="$PROJECT_DIR$/logging/pom.xml" />
+        <option value="$PROJECT_DIR$/logging/src/module-info.java" />
+        <option value="$PROJECT_DIR$/logging/src/com/google/refine/logging/IndentingLayout.java" />
+        <option value="$PROJECT_DIR$/io/src/pom.xml" />
+        <option value="$PROJECT_DIR$/io/pom.xml" />
+        <option value="$PROJECT_DIR$/io/src/com/google/refine/io/FileHistoryEntryManager.java" />
+        <option value="$PROJECT_DIR$/main/src/module-info.java" />
+        <option value="$PROJECT_DIR$/util/src/com/google/refine/e.java" />
+        <option value="$PROJECT_DIR$/util/src/com/google/refine/util/e.java" />
+        <option value="$PROJECT_DIR$/util/pom.xml" />
+        <option value="$PROJECT_DIR$/io/src/module-info.java" />
+        <option value="$PROJECT_DIR$/io/src/com/google/refine/io/FileProjectManager.java" />
+        <option value="$PROJECT_DIR$/command/src/com/google/refine/common/Jsonizable.java" />
+        <option value="$PROJECT_DIR$/command/src/com/google/refine/common/ClientSideResourceManager.java" />
+        <option value="$PROJECT_DIR$/command/pom.xml" />
+        <option value="$PROJECT_DIR$/command/src/module-info.java" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/commonpart/pom.xml" />
+        <option value="$PROJECT_DIR$/commonpart/src/com/google/refine/commonpart/HttpResponder.java" />
+        <option value="$PROJECT_DIR$/commonpart/src/module-info.java" />
+        <option value="$PROJECT_DIR$/util/src/module-info.java" />
+        <option value="$PROJECT_DIR$/util/src/com/google/refine/utility/preference/PreferenceStore.java" />
+        <option value="$PROJECT_DIR$/util/src/com/google/refine/utility/preference/TopList.java" />
+        <option value="$PROJECT_DIR$/util/src/com/google/refine/utility/util/JSONUtilities.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -205,12 +435,12 @@
     <option name="width" value="1440" />
     <option name="height" value="823" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,28 +451,61 @@
             <path>
               <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="commonpart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="commonpart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
-              <item name="extensions" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="commonpart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="commonpart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
+              <item name="extensions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="logging" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
@@ -265,45 +528,58 @@
             <path>
               <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="refine" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+              <item name="preference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenRefine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenRefine" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542333617190" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542724867441" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.google.refine.expression" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/commonpart/src/com/google/refine/commonpart" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/logging" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,16 +599,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6de0bb3f-e234-46de-8521-8fb5bc8cd87b" name="Default Changelist" comment="" />
-      <created>1542326902160</created>
+      <changelist id="a657799a-1d12-41b8-a454-1249de036a12" name="Default Changelist" comment="" />
+      <created>1542721305676</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542326902160</updated>
+      <updated>1542721305676</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -341,10 +618,10 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Dependency Viewer" weight="0.16689466" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32968536" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -366,277 +643,149 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/expression/h.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extensions/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="-91" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging/IDEs/eclipse/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging/logging.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/browsing/DecoratedValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="39" selection-start-line="39" selection-end-line="39" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/expr/Binder.java">
+    <entry file="file://$PROJECT_DIR$/logging/src/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/importing/DefaultImportingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1261">
-          <folding>
-            <element signature="e#0#12766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/io/ProjectUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-602">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/process/ProcessManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/process/Process.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/process/LongRunningProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/history/HistoryEntryManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/process/HistoryEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/process/QuickHistoryEntryProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="43" column="36" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/process/HistoryProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/model/AbstractOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/model/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="177" column="71" selection-start-line="177" selection-start-column="71" selection-end-line="177" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/model/Pool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/history/Change.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/history/History.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314">
-          <caret line="153" column="13" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/logging/IndentingLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extensions/jython/src/com/google/refine/jython/JythonEvaluable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extensions/jython/src/com/google/refine/jython/JythonHasFieldsWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extensions/jython/src/com/google/refine/jython/JythonObjectWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/com/google/refine/Configurations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extensions/database/src/com/google/refine/extension/database/DatabaseColumnType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extensions/database/src/com/google/refine/extension/database/DatabaseConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/io/src/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extensions/database/src/com/google/refine/extension/database/DatabaseImportController.java">
+    <entry file="file://$PROJECT_DIR$/logging/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        <state relative-caret-position="4830">
+          <caret line="322" column="19" selection-end-line="502" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/commands/importing/ImportingControllerCommand.java">
+    <entry file="file://$PROJECT_DIR$/main/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/src/com/google/refine/io/ProjectMetadataUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/src/com/google/refine/io/ProjectUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="46" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/commands/importing/GetImportingJobStatusCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/commands/importing/GetImportingConfigurationCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/commands/importing/CreateImportingJobCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/commands/Command.java">
+    <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/util/e.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="497" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/commands/EngineDependentCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/importing/HttpUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/commands/importing/CancelImportingJobCommand.java">
+    <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/utility/util/IndentWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="44" selection-end-column="52" />
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/commands/history/ApplyOperationsCommand.java">
+    <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/utility/util/CookiesUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
+        <state relative-caret-position="120">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/utility/util/ParsingUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/utility/util/PatternSyntaxExceptionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/utility/util/JSObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging/src/com/google/refine/logging/IndentingLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/src/com/google/refine/io/FileHistoryEntryManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
           <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -644,44 +793,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/com/google/refine/Refine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/InterProjectModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/Jsonizable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/preference/PreferenceStore.java">
+    <entry file="file://$PROJECT_DIR$/io/src/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/RefineServlet.java">
+    <entry file="file://$PROJECT_DIR$/io/src/com/google/refine/io/FileProjectManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="54" column="42" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        <state relative-caret-position="4170">
+          <caret line="315" lean-forward="true" selection-start-line="315" selection-end-line="315" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -695,9 +820,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/ClientSideResourceManager.java">
+    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/InterProjectModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="268">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -705,13 +830,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/HttpResponder.java">
+    <entry file="file://$PROJECT_DIR$/command/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-end-line="514" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonpart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonpart/src/com/google/refine/commonpart/ClientSideResourceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonpart/src/com/google/refine/commonpart/HttpResponder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonpart/src/com/google/refine/commonpart/Jsonizable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/com/google/refine/RefineServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonpart/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/utility/preference/PreferenceStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/utility/preference/TopList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/com/google/refine/utility/util/JSONUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -767,7 +1002,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>extensions</last-edited>
+          <last-edited>util</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

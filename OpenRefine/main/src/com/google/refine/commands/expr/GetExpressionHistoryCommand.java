@@ -48,7 +48,7 @@ import org.json.JSONWriter;
 import com.google.refine.ProjectManager;
 import com.google.refine.commands.Command;
 import com.google.refine.model.Project;
-import com.google.refine.preference.TopList;
+import com.google.refine.utility.preference.TopList;
 
 public class GetExpressionHistoryCommand extends Command {
 

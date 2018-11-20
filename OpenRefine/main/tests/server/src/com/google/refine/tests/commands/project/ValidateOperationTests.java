@@ -33,7 +33,7 @@ import com.google.refine.model.metadata.DataPackageMetadata;
 import com.google.refine.model.metadata.MetadataFactory;
 import com.google.refine.model.metadata.MetadataFormat;
 import com.google.refine.tests.importers.TsvCsvImporterTests;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 import io.frictionlessdata.tableschema.Field;
 import io.frictionlessdata.tableschema.exceptions.ForeignKeyException;

@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib-local" level="project" />
     <orderEntry type="library" name="bdb-je-4.0.103" level="project" />
+    <orderEntry type="library" name="lib-local" level="project" />
   </component>
 </module>

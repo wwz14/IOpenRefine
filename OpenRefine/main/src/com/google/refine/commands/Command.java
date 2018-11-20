@@ -59,7 +59,7 @@ import com.google.refine.process.HistoryEntry;
 import com.google.refine.model.Project;
 import com.google.refine.model.metadata.ProjectMetadata;
 import com.google.refine.process.Process;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 /**
  * The super class of all calls that the client side can invoke, most of which

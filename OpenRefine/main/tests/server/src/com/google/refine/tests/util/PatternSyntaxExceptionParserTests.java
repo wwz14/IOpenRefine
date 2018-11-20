@@ -42,7 +42,7 @@ import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 
 import com.google.refine.tests.RefineTest;
-import com.google.refine.util.PatternSyntaxExceptionParser;
+import com.google.refine.utility.util.PatternSyntaxExceptionParser;
 
 public class PatternSyntaxExceptionParserTests extends RefineTest {
     

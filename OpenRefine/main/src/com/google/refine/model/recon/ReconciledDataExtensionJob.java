@@ -51,8 +51,8 @@ import java.util.Set;
 
 import com.google.refine.model.ReconCandidate;
 import com.google.refine.model.ReconType;
-import com.google.refine.util.JSONUtilities;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.JSONUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

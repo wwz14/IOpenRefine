@@ -46,7 +46,7 @@ import com.google.refine.model.AbstractOperation;
 import com.google.refine.model.Project;
 import com.google.refine.model.changes.ColumnReorderChange;
 import com.google.refine.operations.OperationRegistry;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class ColumnReorderOperation extends AbstractOperation {
     static public AbstractOperation reconstruct(Project project, JSONObject obj) throws Exception {

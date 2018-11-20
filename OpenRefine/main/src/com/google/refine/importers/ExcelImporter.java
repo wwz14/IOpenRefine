@@ -68,7 +68,7 @@ import com.google.refine.model.Recon;
 import com.google.refine.model.Recon.Judgment;
 import com.google.refine.model.metadata.ProjectMetadata;
 import com.google.refine.model.ReconCandidate;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class ExcelImporter extends TabularImportingParserBase {
     static final Logger logger = LoggerFactory.getLogger(ExcelImporter.class);

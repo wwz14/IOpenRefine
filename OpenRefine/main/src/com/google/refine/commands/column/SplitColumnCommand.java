@@ -42,7 +42,7 @@ import com.google.refine.commands.EngineDependentCommand;
 import com.google.refine.model.AbstractOperation;
 import com.google.refine.model.Project;
 import com.google.refine.operations.column.ColumnSplitOperation;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class SplitColumnCommand extends EngineDependentCommand {
     @Override

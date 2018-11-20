@@ -54,8 +54,8 @@ import com.google.refine.importing.ImportingJob;
 import com.google.refine.importing.ImportingManager;
 import com.google.refine.importing.ImportingUtilities;
 import com.google.refine.importing.ImportingManager.Format;
-import com.google.refine.util.JSONUtilities;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.JSONUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class CreateProjectCommand extends Command {
 

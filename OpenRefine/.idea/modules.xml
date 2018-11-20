@@ -3,18 +3,22 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/broker/appengine/appengine.iml" filepath="$PROJECT_DIR$/broker/appengine/appengine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commonpart/commonpart.iml" filepath="$PROJECT_DIR$/commonpart/commonpart.iml" />
       <module fileurl="file://$PROJECT_DIR$/broker/core/core.iml" filepath="$PROJECT_DIR$/broker/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/extensions/database/database.iml" filepath="$PROJECT_DIR$/extensions/database/database.iml" />
       <module fileurl="file://$PROJECT_DIR$/extensions/extensions.iml" filepath="$PROJECT_DIR$/extensions/extensions.iml" />
       <module fileurl="file://$PROJECT_DIR$/extensions/gdata/gdata.iml" filepath="$PROJECT_DIR$/extensions/gdata/gdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
       <module fileurl="file://$PROJECT_DIR$/extensions/jython/jython.iml" filepath="$PROJECT_DIR$/extensions/jython/jython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logging/logging.iml" filepath="$PROJECT_DIR$/logging/logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/openrefine.iml" filepath="$PROJECT_DIR$/openrefine.iml" />
       <module fileurl="file://$PROJECT_DIR$/packaging/packaging.iml" filepath="$PROJECT_DIR$/packaging/packaging.iml" />
       <module fileurl="file://$PROJECT_DIR$/extensions/pc-axis/pc-axis.iml" filepath="$PROJECT_DIR$/extensions/pc-axis/pc-axis.iml" />
       <module fileurl="file://$PROJECT_DIR$/extensions/sample/sample.iml" filepath="$PROJECT_DIR$/extensions/sample/sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/main/tests/server/server.iml" filepath="$PROJECT_DIR$/main/tests/server/server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/extensions/jython/tests/tests.iml" filepath="$PROJECT_DIR$/extensions/jython/tests/tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/wikidata/tests/tests.iml" filepath="$PROJECT_DIR$/extensions/wikidata/tests/tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
       <module fileurl="file://$PROJECT_DIR$/extensions/wikidata/wikidata.iml" filepath="$PROJECT_DIR$/extensions/wikidata/wikidata.iml" />
     </modules>
   </component>

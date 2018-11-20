@@ -58,8 +58,8 @@ import com.google.refine.history.HistoryEntryManager;
 import com.google.refine.model.Project;
 import com.google.refine.model.metadata.IMetadata;
 import com.google.refine.model.metadata.ProjectMetadata;
-import com.google.refine.preference.PreferenceStore;
-import com.google.refine.preference.TopList;
+import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.utility.preference.TopList;
 
 /**
  * ProjectManager is responsible for loading and saving the workspace and projects.

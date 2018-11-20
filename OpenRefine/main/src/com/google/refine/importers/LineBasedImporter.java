@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 import com.google.refine.importing.ImportingJob;
 import com.google.refine.model.Project;
 import com.google.refine.model.metadata.ProjectMetadata;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class LineBasedImporter extends TabularImportingParserBase {
     static final Logger logger = LoggerFactory.getLogger(LineBasedImporter.class);

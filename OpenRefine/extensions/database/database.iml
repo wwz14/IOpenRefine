@@ -12,7 +12,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib-local" level="project" />
-    <orderEntry type="module" module-name="main" />
     <orderEntry type="module" module-name="main" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: edu.mit.simile:butterfly:1.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.mozilla:rhino:1.7.10" level="project" />

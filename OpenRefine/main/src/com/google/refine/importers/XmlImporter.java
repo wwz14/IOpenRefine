@@ -59,7 +59,7 @@ import com.google.refine.importing.ImportingJob;
 import com.google.refine.importing.ImportingUtilities;
 import com.google.refine.model.Project;
 import com.google.refine.model.metadata.ProjectMetadata;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class XmlImporter extends TreeImportingParserBase {
     static final Logger logger = LoggerFactory.getLogger(XmlImporter.class);

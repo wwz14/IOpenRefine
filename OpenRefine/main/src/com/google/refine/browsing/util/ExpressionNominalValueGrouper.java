@@ -50,7 +50,7 @@ import com.google.refine.model.Cell;
 import com.google.refine.model.Project;
 import com.google.refine.model.Record;
 import com.google.refine.model.Row;
-import com.google.refine.util.StringUtils;
+import com.google.refine.utility.util.StringUtils;
 
 /**
  * Visit matched rows or records and group them into facet choices based on the values computed

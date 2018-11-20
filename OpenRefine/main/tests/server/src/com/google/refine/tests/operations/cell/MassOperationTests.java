@@ -15,7 +15,7 @@ import com.google.refine.operations.cell.MassEditOperation;
 import com.google.refine.operations.cell.MassEditOperation.Edit;
 import com.google.refine.tests.RefineTest;
 import com.google.refine.tests.util.TestUtils;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class MassOperationTests extends RefineTest {
 

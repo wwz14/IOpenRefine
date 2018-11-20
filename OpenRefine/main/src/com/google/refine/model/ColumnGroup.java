@@ -38,7 +38,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
 
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONWriter;

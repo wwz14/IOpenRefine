@@ -13,6 +13,10 @@
 
   <modules>
         <module>main</module>
+      <module>logging</module>
+      <module>io</module>
+      <module>util</module>
+      <module>commonpart</module>
         <module>server</module>
         <module>extensions</module>
         <module>packaging</module>

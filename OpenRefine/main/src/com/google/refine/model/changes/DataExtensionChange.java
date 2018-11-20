@@ -45,7 +45,7 @@ import java.util.Properties;
 
 import com.google.refine.model.recon.DataExtensionReconConfig;
 import com.google.refine.model.recon.ReconciledDataExtensionJob;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 import com.google.refine.model.Pool;
 import org.json.JSONException;
 import org.json.JSONWriter;

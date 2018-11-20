@@ -103,10 +103,9 @@ import com.google.refine.model.metadata.MetadataFactory;
 import com.google.refine.model.metadata.MetadataFormat;
 import com.google.refine.model.metadata.PackageExtension;
 import com.google.refine.model.metadata.ProjectMetadata;
-import com.google.refine.preference.PreferenceStore;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.utility.util.JSONUtilities;
 
-import io.frictionlessdata.datapackage.Package;
 import io.frictionlessdata.tableschema.Field;
 import io.frictionlessdata.tableschema.Schema;
 import io.frictionlessdata.tableschema.TypeInferrer;

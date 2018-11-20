@@ -59,8 +59,8 @@ import com.google.refine.model.Row;
 import com.google.refine.model.changes.CellChange;
 import com.google.refine.operations.EngineDependentMassCellOperation;
 import com.google.refine.operations.OperationRegistry;
-import com.google.refine.util.ParsingUtilities;
-import com.google.refine.util.StringUtils;
+import com.google.refine.utility.util.ParsingUtilities;
+import com.google.refine.utility.util.StringUtils;
 
 public class MassEditOperation extends EngineDependentMassCellOperation {
     final protected String         _expression;

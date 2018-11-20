@@ -48,7 +48,7 @@ import org.marc4j.marc.Record;
 
 import com.google.refine.importing.ImportingJob;
 import com.google.refine.importing.ImportingUtilities;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class MarcImporter extends XmlImporter {
     

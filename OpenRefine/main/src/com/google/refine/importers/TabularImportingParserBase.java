@@ -48,7 +48,7 @@ import com.google.refine.model.Column;
 import com.google.refine.model.Project;
 import com.google.refine.model.Row;
 import com.google.refine.model.metadata.ProjectMetadata;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 abstract public class TabularImportingParserBase extends ImportingParserBase {
     static public interface TableDataReader {

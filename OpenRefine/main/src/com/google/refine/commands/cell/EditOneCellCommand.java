@@ -51,7 +51,7 @@ import com.google.refine.model.Column;
 import com.google.refine.model.Project;
 import com.google.refine.model.changes.CellChange;
 import com.google.refine.process.QuickHistoryEntryProcess;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 import com.google.refine.model.Pool;
 
 public class EditOneCellCommand extends Command {

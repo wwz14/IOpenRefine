@@ -54,7 +54,7 @@ import com.google.refine.sorting.SortingRecordVisitor;
 import com.google.refine.sorting.SortingRowVisitor;
 import com.google.refine.templating.Parser;
 import com.google.refine.templating.Template;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class TemplatingExporter implements WriterExporter {
 

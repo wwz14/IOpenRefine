@@ -38,7 +38,7 @@ import com.google.refine.process.HistoryEntry;
 import com.google.refine.model.AbstractOperation;
 import com.google.refine.model.Project;
 import com.google.refine.operations.OperationRegistry;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 import com.google.refine.model.Pool;
 
 public class SaveWikibaseSchemaOperation extends AbstractOperation {

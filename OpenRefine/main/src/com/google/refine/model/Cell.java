@@ -41,8 +41,8 @@ import java.time.OffsetDateTime;
 import java.time.ZoneOffset;
 import java.util.Properties;
 
-import com.google.refine.util.ParsingUtilities;
-import com.google.refine.util.StringUtils;
+import com.google.refine.utility.util.ParsingUtilities;
+import com.google.refine.utility.util.StringUtils;
 import org.json.JSONException;
 import org.json.JSONWriter;
 

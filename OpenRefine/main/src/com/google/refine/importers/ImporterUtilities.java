@@ -51,7 +51,7 @@ import com.google.refine.model.Column;
 import com.google.refine.model.ModelException;
 import com.google.refine.model.Project;
 import com.google.refine.model.Row;
-import com.google.refine.util.TrackingInputStream;
+import com.google.refine.utility.util.TrackingInputStream;
 
 public class ImporterUtilities {
 

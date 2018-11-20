@@ -34,7 +34,7 @@ import org.wikidata.wdtk.wikibaseapi.ApiConnection;
 import org.wikidata.wdtk.wikibaseapi.LoginFailedException;
 
 import com.google.refine.ProjectManager;
-import com.google.refine.preference.PreferenceStore;
+import com.google.refine.utility.preference.PreferenceStore;
 
 /**
  * Manages a connection to Wikidata, with login credentials stored in the

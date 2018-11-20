@@ -39,8 +39,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import com.google.refine.util.JSONUtilities;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.JSONUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 import org.apache.commons.lang3.StringUtils;
 import org.json.JSONException;
 import org.json.JSONObject;

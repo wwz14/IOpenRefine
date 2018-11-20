@@ -40,7 +40,7 @@ import com.google.refine.commands.EngineDependentCommand;
 import com.google.refine.model.AbstractOperation;
 import com.google.refine.model.Project;
 import com.google.refine.operations.cell.MassEditOperation;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class MassEditCommand extends EngineDependentCommand {
     @Override

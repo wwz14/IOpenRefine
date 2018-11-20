@@ -59,7 +59,7 @@ import com.google.refine.model.Record;
 import com.google.refine.model.Row;
 import com.google.refine.sorting.SortingRecordVisitor;
 import com.google.refine.sorting.SortingRowVisitor;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 import com.google.refine.model.Pool;
 
 public class GetRowsCommand extends Command {

@@ -48,7 +48,7 @@ import org.odftoolkit.odfdom.doc.table.OdfTableRow;
 import com.google.refine.ProjectManager;
 import com.google.refine.browsing.Engine;
 import com.google.refine.model.Project;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class OdsExporter implements StreamExporter {
 

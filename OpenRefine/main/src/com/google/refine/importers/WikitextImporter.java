@@ -65,7 +65,7 @@ import com.google.refine.model.Recon;
 import com.google.refine.model.ReconStats;
 import com.google.refine.model.metadata.ProjectMetadata;
 import com.google.refine.model.recon.StandardReconConfig.ColumnDetail;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 import com.google.refine.model.recon.StandardReconConfig;
 import com.google.refine.model.recon.ReconJob;
 

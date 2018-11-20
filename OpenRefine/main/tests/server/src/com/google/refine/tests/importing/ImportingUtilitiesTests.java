@@ -17,7 +17,7 @@ import com.google.refine.importing.ImportingManager;
 import com.google.refine.importing.ImportingUtilities;
 import com.google.refine.model.metadata.ProjectMetadata;
 import com.google.refine.tests.importers.ImporterTest;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class ImportingUtilitiesTests extends ImporterTest {
 

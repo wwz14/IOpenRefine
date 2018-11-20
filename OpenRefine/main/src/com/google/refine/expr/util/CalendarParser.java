@@ -42,7 +42,7 @@ import java.util.TimeZone;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 // Taken from http://icecube.wisc.edu/~dglo/software/calparse/index.html
 // Copyright Dave Glowacki. Released under the BSD license.

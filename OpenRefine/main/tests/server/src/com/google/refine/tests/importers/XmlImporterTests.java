@@ -52,7 +52,7 @@ import com.google.refine.importers.XmlImporter;
 import com.google.refine.importers.tree.TreeImportingParserBase;
 import com.google.refine.importing.ImportingJob;
 import com.google.refine.model.Row;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 
 public class XmlImporterTests extends ImporterTest {

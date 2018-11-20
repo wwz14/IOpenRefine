@@ -45,7 +45,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.google.refine.importers.RdfTripleImporter;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class RdfTripleImporterTests extends ImporterTest {
     

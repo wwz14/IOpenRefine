@@ -60,7 +60,7 @@ import com.google.refine.expr.WrappedRow;
 import com.google.refine.model.Cell;
 import com.google.refine.model.Project;
 import com.google.refine.model.Row;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class PreviewExpressionCommand extends Command {
     

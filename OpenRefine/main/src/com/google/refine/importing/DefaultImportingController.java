@@ -52,8 +52,8 @@ import org.json.JSONWriter;
 
 import com.google.refine.RefineServlet;
 import com.google.refine.importing.ImportingManager.Format;
-import com.google.refine.util.JSONUtilities;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.JSONUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class DefaultImportingController implements ImportingController {
 

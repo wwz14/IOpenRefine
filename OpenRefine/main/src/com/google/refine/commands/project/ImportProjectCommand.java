@@ -54,7 +54,7 @@ import com.google.refine.ProjectManager;
 import com.google.refine.commands.Command;
 import com.google.refine.model.Project;
 import com.google.refine.model.metadata.ProjectMetadata;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class ImportProjectCommand extends Command {
 

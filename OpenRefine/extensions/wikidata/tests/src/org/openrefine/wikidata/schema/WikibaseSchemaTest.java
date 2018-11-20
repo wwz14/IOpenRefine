@@ -56,7 +56,7 @@ import com.google.refine.browsing.Engine;
 import com.google.refine.browsing.EngineConfig;
 import com.google.refine.model.Project;
 import com.google.refine.tests.RefineTest;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class WikibaseSchemaTest extends RefineTest {
 

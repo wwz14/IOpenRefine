@@ -52,8 +52,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
-import com.google.refine.util.JSONUtilities;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.JSONUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.ArrayUtils;
@@ -67,8 +67,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.refine.ProjectManager;
-import com.google.refine.preference.PreferenceStore;
-import com.google.refine.preference.TopList;
+import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.utility.preference.TopList;
 
 public class ProjectMetadata  extends AbstractMetadata {
     final public static String DEFAULT_FILE_NAME = "metadata.json";

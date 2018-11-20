@@ -43,7 +43,7 @@ import org.json.JSONWriter;
 import com.google.refine.expr.EvalError;
 import com.google.refine.grel.ControlFunctionRegistry;
 import com.google.refine.grel.Function;
-import com.google.refine.util.StringUtils;
+import com.google.refine.utility.util.StringUtils;
 
 public class ToString implements Function {
 

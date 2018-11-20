@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.google.refine.process.Process;
 import com.google.refine.process.ProcessManager;
 import com.google.refine.tests.util.TestUtils;
-import com.google.refine.util.JSONUtilities;
+import com.google.refine.utility.util.JSONUtilities;
 
 public class ProcessManagerTests {
     

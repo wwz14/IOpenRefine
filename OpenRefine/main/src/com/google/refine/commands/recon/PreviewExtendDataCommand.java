@@ -60,7 +60,7 @@ import com.google.refine.model.Row;
 import com.google.refine.model.Column;
 import com.google.refine.model.recon.ReconConfig;
 import com.google.refine.model.recon.StandardReconConfig;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class PreviewExtendDataCommand extends Command {
     

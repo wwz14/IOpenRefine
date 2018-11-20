@@ -53,7 +53,7 @@ import org.json.JSONObject;
 import com.google.refine.ProjectManager;
 import com.google.refine.browsing.Engine;
 import com.google.refine.model.Project;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 public class XlsExporter implements StreamExporter {
     final private boolean xml;

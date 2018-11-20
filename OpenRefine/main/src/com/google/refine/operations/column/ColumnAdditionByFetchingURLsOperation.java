@@ -77,7 +77,7 @@ import com.google.refine.operations.OperationRegistry;
 import com.google.refine.operations.cell.TextTransformOperation;
 import com.google.refine.process.LongRunningProcess;
 import com.google.refine.process.Process;
-import com.google.refine.util.ParsingUtilities;
+import com.google.refine.utility.util.ParsingUtilities;
 
 
 public class ColumnAdditionByFetchingURLsOperation extends EngineDependentOperation {

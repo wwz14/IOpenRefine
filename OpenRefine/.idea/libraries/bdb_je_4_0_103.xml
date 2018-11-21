@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="bdb-je-4.0.103">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/broker/core/module/MOD-INF/lib/bdb-je-4.0.103.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -21,23 +21,5 @@
         <module name="wikidata" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="command" target="1.8" />
-      <module name="common" target="1.5" />
-      <module name="commonpart" target="1.8" />
-      <module name="database" target="1.8" />
-      <module name="extensions" target="1.8" />
-      <module name="gdata" target="1.8" />
-      <module name="io" target="1.8" />
-      <module name="jython" target="1.8" />
-      <module name="logging" target="1.8" />
-      <module name="main" target="1.8" />
-      <module name="openrefine" target="1.8" />
-      <module name="packaging" target="1.8" />
-      <module name="pc-axis" target="1.8" />
-      <module name="server" target="1.8" />
-      <module name="util" target="9" />
-      <module name="wikidata" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

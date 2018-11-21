@@ -1,7 +1,7 @@
 module main {
     requires util;
     requires commonpart;
-    requires wdtk.datamodel;
+    //requires wdtk.datamodel;
     requires ant;
     requires json;
     requires slf4j.api;

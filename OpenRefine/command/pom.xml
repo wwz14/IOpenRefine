@@ -5,13 +5,13 @@
     <artifactId>command</artifactId>
     <packaging>jar</packaging>
 
-    <name>OpenRefine - main</name>
+    <name>OpenRefine - command</name>
     <description>OpenRefine is a free, open source power tool for working with messy data and improving it</description>
     <url>http://openrefine.org/</url>
     <parent>
         <groupId>org.openrefine</groupId>
         <artifactId>openrefine</artifactId>
-        <version>3.1-SNAPSHOT</version>
+        <version>3.1-beta</version>
     </parent>
 
     <properties>
@@ -32,7 +32,7 @@
                 <directory>src</directory>
             </resource>
         </resources>
-        <testSourceDirectory>tests/server/src</testSourceDirectory>
+        <!--<testSourceDirectory>tests/server/src</testSourceDirectory>-->
         <testResources>
             <testResource>
                 <directory>tests/data</directory>
@@ -63,8 +63,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>9</source>
+                    <target>9</target>
                     <encoding>UTF-8</encoding>
                     <showDeprecation>false</showDeprecation>
                 </configuration>
@@ -275,6 +275,8 @@
         <dependency>
             <groupId>edu.mit.simile</groupId>
             <artifactId>butterfly</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib-local/butterfly-1.0.1.jar</systemPath>
             <version>1.0.1</version>
         </dependency>
         <dependency>
@@ -335,6 +337,8 @@
         <dependency>
             <groupId>marc4j</groupId>
             <artifactId>marc4j</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib-local/marc4j-2.4.jar</systemPath>
             <version>2.4</version>
         </dependency>
         <dependency>
@@ -351,6 +355,8 @@
             <groupId>net.sf.opencsv</groupId>
             <artifactId>opencsv</artifactId>
             <version>2.4-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib-local/opencsv-2.4-SNAPSHOT.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -370,6 +376,8 @@
         <dependency>
             <groupId>edu.mit.simile</groupId>
             <artifactId>vicino</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib-local/vicino-1.1.jar</systemPath>
             <version>1.1</version>
         </dependency>
         <dependency>
@@ -410,11 +418,15 @@
         <dependency>
             <groupId>io.frictionlessdata</groupId>
             <artifactId>datapackage-java</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib-local/datapackage-java-1.0-SNAPSHOT.jar</systemPath>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>io.frictionlessdata</groupId>
             <artifactId>tableschema-java</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib-local/tableschema-java-1.0-SNAPSHOT.jar</systemPath>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -450,11 +462,15 @@
         <dependency>
             <groupId>com.wcohen</groupId>
             <artifactId>secondstring</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib-local/secondstring-20100303.jar</systemPath>
             <version>20100303</version>
         </dependency>
         <dependency>
             <groupId>com.colloquial</groupId>
             <artifactId>arithcode</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib-local/arithcode-1.1.jar</systemPath>
             <version>1.1</version>
         </dependency>
 
@@ -492,13 +508,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-        </dependency>
-        <dependency>
             <groupId>org.openrefine</groupId>
-            <artifactId>main</artifactId>
+            <artifactId>commonpart</artifactId>
             <version>3.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
@@ -506,6 +517,30 @@
             <groupId>org.openrefine</groupId>
             <artifactId>util</artifactId>
             <version>3.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.openrefine</groupId>
+            <artifactId>main</artifactId>
+            <version>3.1-beta</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.openrefine</groupId>
+            <artifactId>commonpart</artifactId>
+            <version>3.1-beta</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.openrefine</groupId>
+            <artifactId>io</artifactId>
+            <version>3.1-beta</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.openrefine</groupId>
+            <artifactId>util</artifactId>
+            <version>3.1-beta</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

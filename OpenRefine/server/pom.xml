@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>server</artifactId>
@@ -11,7 +11,7 @@
   <parent>
     <groupId>org.openrefine</groupId>
     <artifactId>openrefine</artifactId>
-    <version>3.1-SNAPSHOT</version>
+    <version>3.1-beta</version>
   </parent>
 
   <properties>
@@ -94,74 +94,74 @@
         <artifactId>maven-install-plugin</artifactId>
         <version>2.5.2</version>
         <executions>
-            <execution>
-                <id>install-jdapath</id>
-                <phase>process-resources</phase>
-                <configuration>
-                    <file>${basedir}/lib-local/jdatapath-alpha2.jar</file>
-                    <repositoryLayout>default</repositoryLayout>
-                    <groupId>com.codeberry.jdatapath</groupId>
-                    <artifactId>jdatapath</artifactId>
-                    <version>alpha2</version>
-                    <packaging>jar</packaging>
-                    <generatePom>true</generatePom>
-                </configuration>
-                <goals>
-                    <goal>install-file</goal>
-                </goals>
-            </execution>
+          <execution>
+            <id>install-jdapath</id>
+            <phase>process-resources</phase>
+            <configuration>
+              <file>${basedir}/lib-local/jdatapath-alpha2.jar</file>
+              <repositoryLayout>default</repositoryLayout>
+              <groupId>com.codeberry.jdatapath</groupId>
+              <artifactId>jdatapath</artifactId>
+              <version>alpha2</version>
+              <packaging>jar</packaging>
+              <generatePom>true</generatePom>
+            </configuration>
+            <goals>
+              <goal>install-file</goal>
+            </goals>
+          </execution>
         </executions>
       </plugin>
     </plugins>
     <pluginManagement>
       <plugins>
         <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-dependency-plugin</artifactId>
-            <version>3.1.1</version>
-            <configuration>
-                <includeScope>runtime</includeScope>
-            </configuration>
-            <executions>
-                <execution>
-                <phase>compile</phase>
-                <goals>
-                    <goal>copy-dependencies</goal>
-                </goals>
-                <configuration>
-                    <outputDirectory>target/lib</outputDirectory>
-                </configuration>
-                </execution>
-            </executions>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <version>3.1.1</version>
+          <configuration>
+            <includeScope>runtime</includeScope>
+          </configuration>
+          <executions>
+            <execution>
+              <phase>compile</phase>
+              <goals>
+                <goal>copy-dependencies</goal>
+              </goals>
+              <configuration>
+                <outputDirectory>target/lib</outputDirectory>
+              </configuration>
+            </execution>
+          </executions>
         </plugin>
         <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
         <plugin>
-        	<groupId>org.eclipse.m2e</groupId>
-        	<artifactId>lifecycle-mapping</artifactId>
-        	<version>1.0.0</version>
-        	<configuration>
-        		<lifecycleMappingMetadata>
-        			<pluginExecutions>
-        				<pluginExecution>
-        					<pluginExecutionFilter>
-        						<groupId>
-        							org.apache.maven.plugins
-        						</groupId>
-        						<artifactId>
-        							maven-install-plugin
-        						</artifactId>
-        						<versionRange>[2.5.2,)</versionRange>
-        						<goals>
-        							<goal>install-file</goal>
-        						</goals>
-        					</pluginExecutionFilter>
-        					<action>
-        						<ignore></ignore>
-        					</action>
-        				</pluginExecution>
-        			</pluginExecutions>
-        		</lifecycleMappingMetadata>
-        	</configuration>
+          <groupId>org.eclipse.m2e</groupId>
+          <artifactId>lifecycle-mapping</artifactId>
+          <version>1.0.0</version>
+          <configuration>
+            <lifecycleMappingMetadata>
+              <pluginExecutions>
+                <pluginExecution>
+                  <pluginExecutionFilter>
+                    <groupId>
+                      org.apache.maven.plugins
+                    </groupId>
+                    <artifactId>
+                      maven-install-plugin
+                    </artifactId>
+                    <versionRange>[2.5.2,)</versionRange>
+                    <goals>
+                      <goal>install-file</goal>
+                    </goals>
+                  </pluginExecutionFilter>
+                  <action>
+                    <ignore></ignore>
+                  </action>
+                </pluginExecution>
+              </pluginExecutions>
+            </lifecycleMappingMetadata>
+          </configuration>
         </plugin>
       </plugins>
     </pluginManagement>

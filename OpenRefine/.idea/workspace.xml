@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a657799a-1d12-41b8-a454-1249de036a12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/command/command.iml" beforeDir="false" afterPath="$PROJECT_DIR$/command/command.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io/io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/io/io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/importing/ImportingUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/importing/ImportingUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/metadata/DataPackageMetadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/metadata/DataPackageMetadata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/com/google/refine/model/metadata/MetadataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/com/google/refine/model/metadata/MetadataFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/util/util.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/extensions/database/module/MOD-INF/classes/" />
@@ -84,13 +73,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="960" />
+          <entry key="java" value="961" />
           <entry key="xml" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="960" />
+          <entry key="JAVA" value="961" />
           <entry key="XML" value="132" />
         </counts>
       </usages-collector>
@@ -152,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/src/module-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="345">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -262,8 +251,8 @@
         <option value="$PROJECT_DIR$/command/src/module-info.java" />
         <option value="$PROJECT_DIR$/main/src/com/google/refine/model/metadata/MetadataFactory.java" />
         <option value="$PROJECT_DIR$/main/src/com/google/refine/importing/ImportingUtilities.java" />
-        <option value="$PROJECT_DIR$/main/src/module-info.java" />
         <option value="$PROJECT_DIR$/main/pom.xml" />
+        <option value="$PROJECT_DIR$/main/src/module-info.java" />
       </list>
     </option>
   </component>
@@ -344,7 +333,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542759616691" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542759752925" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -385,6 +374,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -846,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/src/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="345">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -908,6 +898,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -21,6 +21,7 @@ module main {
     requires httpcore;
     requires httpclient;
     requires datapackage.java;
+    requires tableschema.java;
 
 
     exports com.google.refine;

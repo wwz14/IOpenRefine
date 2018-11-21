@@ -6,8 +6,7 @@ module main {
     requires json;
     requires slf4j.api;
     requires servlet.api;
-    requires tableschema.java;
-    requires datapackage.java;
+
     requires org.everit.json.schema;
     requires commons.io;
     requires commons.beanutils;
@@ -21,6 +20,7 @@ module main {
     requires commons.lang;
     requires httpcore;
     requires httpclient;
+    requires datapackage.java;
 
 
     exports com.google.refine;

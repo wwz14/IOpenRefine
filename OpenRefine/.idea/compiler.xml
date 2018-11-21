@@ -36,7 +36,7 @@
       <module name="packaging" target="1.8" />
       <module name="pc-axis" target="1.8" />
       <module name="server" target="1.8" />
-      <module name="util" target="1.8" />
+      <module name="util" target="9" />
       <module name="wikidata" target="1.8" />
     </bytecodeTargetLevel>
   </component>

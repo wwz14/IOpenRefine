@@ -1,13 +1,8 @@
 package com.google.refine.model.metadata;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.StringWriter;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Properties;
-
+import io.frictionlessdata.datapackage.Package;
+import io.frictionlessdata.datapackage.Resource;
+import io.frictionlessdata.datapackage.exceptions.DataPackageException;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.exception.ExceptionUtils;
@@ -18,9 +13,13 @@ import org.json.JSONWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import io.frictionlessdata.datapackage.Package;
-import io.frictionlessdata.datapackage.Resource;
-import io.frictionlessdata.datapackage.exceptions.DataPackageException;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.StringWriter;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
 
 
 public class DataPackageMetadata extends AbstractMetadata {
@@ -113,7 +112,7 @@ public class DataPackageMetadata extends AbstractMetadata {
         return _pkg.getJson();
     }
     
-    public java.lang.Package getPackage() {
+    public Package getPackage() {
         return _pkg;
     }
 

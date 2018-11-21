@@ -5,6 +5,8 @@
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/server/src" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/data" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/webapp/WEB-INF/classes" />
     </content>
@@ -13,7 +15,15 @@
     <orderEntry type="library" name="lib-local" level="project" />
     <orderEntry type="library" name="lib-local1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" name="Maven: edu.mit.simile:butterfly:1.0.1" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: edu.mit.simile:butterfly:1.0.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib-local/butterfly-1.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.mozilla:rhino:1.7.10" level="project" />
     <orderEntry type="library" name="Maven: org.json:json:20160810" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.1" level="project" />
@@ -31,11 +41,27 @@
     <orderEntry type="library" name="Maven: velocity:velocity:1.5" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.1" level="project" />
     <orderEntry type="library" name="Maven: oro:oro:2.0.8" level="project" />
-    <orderEntry type="library" name="Maven: marc4j:marc4j:2.4" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: marc4j:marc4j:2.4">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib-local/marc4j-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.apache.ant:ant:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.4.1" level="project" />
-    <orderEntry type="library" name="Maven: net.sf.opencsv:opencsv:2.4-SNAPSHOT" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: net.sf.opencsv:opencsv:2.4-SNAPSHOT">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib-local/opencsv-2.4-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.8" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.8" level="project" />
@@ -47,7 +73,15 @@
     <orderEntry type="library" name="Maven: org.apache.odftoolkit:odfdom-java:0.8.8-incubating" level="project" />
     <orderEntry type="library" name="Maven: org.apache.odftoolkit:taglets:0.8.8-incubating" level="project" />
     <orderEntry type="library" name="Maven: xerces:xercesImpl:2.9.1" level="project" />
-    <orderEntry type="library" name="Maven: edu.mit.simile:vicino:1.1" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: edu.mit.simile:vicino:1.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib-local/vicino-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: oauth.signpost:signpost-core:1.2.1.2" level="project" />
     <orderEntry type="library" name="Maven: oauth.signpost:signpost-commonshttp4:1.2.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.clojure:clojure:1.5.1" level="project" />
@@ -61,8 +95,24 @@
     <orderEntry type="library" name="Maven: org.everit.json:org.everit.json.schema:1.5.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
     <orderEntry type="library" name="Maven: commons-validator:commons-validator:1.5.1" level="project" />
-    <orderEntry type="library" name="Maven: io.frictionlessdata:datapackage-java:1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: io.frictionlessdata:tableschema-java:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: io.frictionlessdata:datapackage-java:1.0-SNAPSHOT">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib-local/datapackage-java-1.0-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: io.frictionlessdata:tableschema-java:1.0-SNAPSHOT">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib-local/tableschema-java-1.0-SNAPSHOT.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.9.9" level="project" />
     <orderEntry type="library" name="Maven: org.apache.jena:jena-arq:3.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.jena:jena-shaded-guava:3.6.0" level="project" />
@@ -85,8 +135,24 @@
     <orderEntry type="library" name="Maven: org.apache.jena:jena-iri:3.6.0" level="project" />
     <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.4" level="project" />
     <orderEntry type="library" name="Maven: com.metaweb:lessen:1.0" level="project" />
-    <orderEntry type="library" name="Maven: com.wcohen:secondstring:20100303" level="project" />
-    <orderEntry type="library" name="Maven: com.colloquial:arithcode:1.1" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.wcohen:secondstring:20100303">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib-local/secondstring-20100303.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.colloquial:arithcode:1.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib-local/arithcode-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.9.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.48" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
@@ -104,9 +170,8 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-mockito2:1.7.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-mockito-common:1.7.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-support:1.7.1" level="project" />
-    <orderEntry type="module" module-name="util" />
     <orderEntry type="module" module-name="commonpart" />
-    <orderEntry type="module" module-name="command" />
-    <orderEntry type="module" module-name="io" />
+    <orderEntry type="library" name="Maven: org.openrefine:main:3.1-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="util" />
   </component>
 </module>

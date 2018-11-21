@@ -1,17 +1,17 @@
 package com.google.refine.model.metadata;
 
-import java.io.IOException;
-
 import com.google.refine.model.Project;
 import com.google.refine.utility.util.JSONUtilities;
 import com.google.refine.utility.util.ParsingUtilities;
+import io.frictionlessdata.datapackage.Package;
+import io.frictionlessdata.datapackage.Resource;
+import io.frictionlessdata.datapackage.exceptions.DataPackageException;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.everit.json.schema.ValidationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import io.frictionlessdata.datapackage.Resource;
-import io.frictionlessdata.datapackage.exceptions.DataPackageException;
+import java.io.IOException;
 
 public class MetadataFactory {
     private final static Logger logger = LoggerFactory.getLogger(MetadataFactory.class);

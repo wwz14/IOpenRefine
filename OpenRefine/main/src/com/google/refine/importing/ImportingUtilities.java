@@ -33,36 +33,19 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.importing;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.io.UnsupportedEncodingException;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.net.URLConnection;
-import java.text.NumberFormat;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.stream.Collectors;
-import java.util.zip.GZIPInputStream;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
-
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
+import com.google.refine.ProjectManager;
+import com.google.refine.RefineServlet;
+import com.google.refine.importing.ImportingManager.Format;
+import com.google.refine.importing.UrlRewriter.Result;
+import com.google.refine.model.*;
+import com.google.refine.model.metadata.*;
+import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.utility.util.JSONUtilities;
+import io.frictionlessdata.datapackage.Package;
+import io.frictionlessdata.tableschema.Field;
+import io.frictionlessdata.tableschema.Schema;
+import io.frictionlessdata.tableschema.TypeInferrer;
+import io.frictionlessdata.tableschema.exceptions.TypeInferringException;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.ProgressListener;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
@@ -88,28 +71,19 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.refine.ProjectManager;
-import com.google.refine.RefineServlet;
-import com.google.refine.importing.ImportingManager.Format;
-import com.google.refine.importing.UrlRewriter.Result;
-import com.google.refine.model.Cell;
-import com.google.refine.model.Column;
-import com.google.refine.model.ColumnModel;
-import com.google.refine.model.Project;
-import com.google.refine.model.Row;
-import com.google.refine.model.metadata.DataPackageMetadata;
-import com.google.refine.model.metadata.IMetadata;
-import com.google.refine.model.metadata.MetadataFactory;
-import com.google.refine.model.metadata.MetadataFormat;
-import com.google.refine.model.metadata.PackageExtension;
-import com.google.refine.model.metadata.ProjectMetadata;
-import com.google.refine.utility.preference.PreferenceStore;
-import com.google.refine.utility.util.JSONUtilities;
-
-import io.frictionlessdata.tableschema.Field;
-import io.frictionlessdata.tableschema.Schema;
-import io.frictionlessdata.tableschema.TypeInferrer;
-import io.frictionlessdata.tableschema.exceptions.TypeInferringException;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.*;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.text.NumberFormat;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.zip.GZIPInputStream;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 public class ImportingUtilities {
     final static protected Logger logger = LoggerFactory.getLogger("importing-utilities");

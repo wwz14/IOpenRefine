@@ -19,7 +19,7 @@
       <module>commonpart</module>
       <module>command</module>
         <module>server</module>
-        <module>extensions</module>
+        <!--<module>extensions</module>-->
         <module>packaging</module>
   </modules>
 

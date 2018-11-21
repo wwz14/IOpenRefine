@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="command" />
+        <module name="commonpart" />
+        <module name="io" />
+        <module name="logging" />
+        <module name="main" />
+        <module name="packaging" />
+        <module name="server" />
+        <module name="util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="database" target="1.5" />
+      <module name="extensions" target="1.8" />
+      <module name="gdata" target="1.5" />
+      <module name="jython" target="1.5" />
+      <module name="pc-axis" target="1.5" />
+      <module name="wikidata" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -253,7 +253,7 @@
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>server</artifactId>
-      <version>${project.version}</version>
+      <version>3.1-beta</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>

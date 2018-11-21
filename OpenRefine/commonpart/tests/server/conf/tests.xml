@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Refine Unit Tests">
+  <test name="tests">
+    <groups>
+      <run>
+        <exclude name="broken" />
+      </run>
+    </groups>
+  </test>
+</suite>

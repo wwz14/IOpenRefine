@@ -3,7 +3,7 @@ package com.google.refine.tests.preference;
 import org.json.JSONObject;
 import org.testng.annotations.Test;
 
-import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.PreferenceStore;
 import com.google.refine.tests.util.TestUtils;
 
 public class PreferenceStoreTests {

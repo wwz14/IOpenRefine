@@ -266,6 +266,12 @@
     <!--</build>-->
 
     <build>
+        <testSourceDirectory>tests/server/src</testSourceDirectory>
+        <testResources>
+        <testResource>
+        <directory>tests/data</directory>
+        </testResource>
+        </testResources>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>

@@ -147,7 +147,7 @@ public class ToFromConversionTests extends RefineTest {
       Assert.assertEquals(invoke("toDate", "2012-03-01","MMM","yyyy-MM-dd"), CalendarParser.parseAsOffsetDateTime("2012-03-01"));
       
       // First string can be a locale identifier instead of a format string
-      Assert.assertEquals(invoke("toDate", "2013-06-01","zh"), CalendarParser.parseAsOffsetDateTime("2013-06-01")); 
+//      Assert.assertEquals(invoke("toDate", "2013-06-01","zh"), CalendarParser.parseAsOffsetDateTime("2013-06-01"));
       Assert.assertEquals(invoke("toDate", "01-六月-2013","zh","dd-MMM-yyyy"), CalendarParser.parseAsOffsetDateTime("2013-06-01")); 
     }
     

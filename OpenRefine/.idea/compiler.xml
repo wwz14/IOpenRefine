@@ -9,7 +9,6 @@
         <module name="commonpart" />
         <module name="logging" />
         <module name="main" />
-        <module name="packaging" />
         <module name="server" />
         <module name="util" />
       </profile>
@@ -21,6 +20,7 @@
       <module name="gdata" target="1.5" />
       <module name="io" target="9" />
       <module name="jython" target="1.5" />
+      <module name="packaging" target="1.8" />
       <module name="pc-axis" target="1.5" />
       <module name="wikidata" target="1.8" />
     </bytecodeTargetLevel>

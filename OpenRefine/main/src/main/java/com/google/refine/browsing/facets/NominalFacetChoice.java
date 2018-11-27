@@ -38,7 +38,7 @@ import java.util.Properties;
 import org.json.JSONException;
 import org.json.JSONWriter;
 
-import com.google.refine.Jsonizable;
+import com.google.refine.commonpart.Jsonizable;
 import com.google.refine.browsing.DecoratedValue;
 
 /**

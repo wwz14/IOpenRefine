@@ -67,7 +67,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.refine.ProjectManager;
-import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.PreferenceStore;
 import com.google.refine.utility.preference.TopList;
 
 public class ProjectMetadata  extends AbstractMetadata {

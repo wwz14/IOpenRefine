@@ -278,6 +278,10 @@
                             <goal>compile</goal>
                         </goals>
                         <configuration>
+                            <compilerArgs>
+                                <arg>--add-modules</arg>
+                                <arg>java.xml.bind</arg>
+                            </compilerArgs>
                             <source>9</source>
                             <target>9</target>
                         </configuration>
@@ -298,6 +302,16 @@
                     <source>9</source>
                     <target>9</target>
                 </configuration>
+            </plugin>
+            <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.22.0</version>
+            <configuration>
+            <suiteXmlFiles>
+            <suiteXmlFile>tests/server/conf/tests.xml</suiteXmlFile>
+            </suiteXmlFiles>
+            </configuration>
             </plugin>
         </plugins>
     </build>

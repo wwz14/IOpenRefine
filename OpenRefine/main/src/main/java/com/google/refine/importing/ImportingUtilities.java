@@ -39,7 +39,7 @@ import com.google.refine.importing.ImportingManager.Format;
 import com.google.refine.importing.UrlRewriter.Result;
 import com.google.refine.model.*;
 import com.google.refine.model.metadata.*;
-import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.PreferenceStore;
 import com.google.refine.utility.util.JSONUtilities;
 import io.frictionlessdata.datapackage.Package;
 import io.frictionlessdata.tableschema.Field;

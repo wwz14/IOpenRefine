@@ -22,7 +22,7 @@ import org.json.JSONTokener;
 import com.google.refine.ProjectManager;
 import com.google.refine.RefineServlet;
 import com.google.refine.commands.Command;
-import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.PreferenceStore;
 
 import edu.mit.simile.butterfly.ButterflyModule;
 

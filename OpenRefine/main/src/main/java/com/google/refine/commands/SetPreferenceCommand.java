@@ -34,49 +34,35 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 package com.google.refine.commands;
 
 import java.io.IOException;
-import java.util.Properties;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.json.JSONException;
-import org.json.JSONWriter;
+import org.json.JSONTokener;
 
 import com.google.refine.ProjectManager;
 import com.google.refine.model.Project;
-import com.google.refine.utility.preference.PreferenceStore;
-import com.google.refine.utility.preference.TopList;
+import com.google.refine.PreferenceStore;
 
-public class GetPreferenceCommand extends Command {
+public class SetPreferenceCommand extends Command {
     @Override
-    public void doGet(HttpServletRequest request, HttpServletResponse response)
+    public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
         Project project = request.getParameter("project") != null ? getProject(request) : null;
         PreferenceStore ps = ProjectManager.singleton.getPreferenceStore();
                 
         String prefName = request.getParameter("name");
-        Object pref = ps.get(prefName);
+        String valueString = request.getParameter("value");
         
         try {
-            response.setCharacterEncoding("UTF-8");
-            response.setHeader("Content-Type", "application/json");
+            Object o = valueString == null ? null : new JSONTokener(valueString).nextValue();
             
-            JSONWriter writer = new JSONWriter(response.getWriter());
+            ps.put(prefName, PreferenceStore.loadObject(o));
             
-            writer.object();
-            writer.key("value");
-            if (pref == null || pref instanceof String || pref instanceof Number || pref instanceof Boolean) {
-                writer.value(pref);
-            } else if (pref instanceof TopList) {
-                TopList tl = (TopList) pref;
-                tl.write(writer, new Properties());
-            } else {
-                writer.value(pref.toString());
-            }
-            
-            writer.endObject();
+            respond(response, "{ \"code\" : \"ok\" }");
         } catch (JSONException e) {
             respondException(response, e);
         }

@@ -31,7 +31,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 */
 
-package com.google.refine.utility.preference;
+package com.google.refine;
 
 import com.google.refine.RefineServlet;
 import com.google.refine.commonpart.Jsonizable;

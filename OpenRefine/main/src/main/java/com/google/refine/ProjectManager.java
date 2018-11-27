@@ -37,7 +37,6 @@ import com.google.refine.history.HistoryEntryManager;
 import com.google.refine.model.Project;
 import com.google.refine.model.metadata.IMetadata;
 import com.google.refine.model.metadata.ProjectMetadata;
-import com.google.refine.utility.preference.PreferenceStore;
 import com.google.refine.utility.preference.TopList;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.tools.tar.TarOutputStream;

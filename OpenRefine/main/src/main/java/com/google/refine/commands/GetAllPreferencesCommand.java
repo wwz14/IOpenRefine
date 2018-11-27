@@ -40,29 +40,39 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.json.JSONException;
-import org.json.JSONTokener;
+import org.json.JSONWriter;
 
 import com.google.refine.ProjectManager;
 import com.google.refine.model.Project;
-import com.google.refine.utility.preference.PreferenceStore;
+import com.google.refine.PreferenceStore;
 
-public class SetPreferenceCommand extends Command {
+public class GetAllPreferencesCommand extends Command {
     @Override
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
         Project project = request.getParameter("project") != null ? getProject(request) : null;
-        PreferenceStore ps = ProjectManager.singleton.getPreferenceStore();
+        PreferenceStore ps = project != null ? 
+                project.getMetadata().getPreferenceStore() : 
+                ProjectManager.singleton.getPreferenceStore();
                 
-        String prefName = request.getParameter("name");
-        String valueString = request.getParameter("value");
-        
         try {
-            Object o = valueString == null ? null : new JSONTokener(valueString).nextValue();
+            response.setCharacterEncoding("UTF-8");
+            response.setHeader("Content-Type", "application/json");
             
-            ps.put(prefName, PreferenceStore.loadObject(o));
+            JSONWriter writer = new JSONWriter(response.getWriter());
             
-            respond(response, "{ \"code\" : \"ok\" }");
+            writer.object();
+            
+            for (String key : ps.getKeys()) {
+                Object pref = ps.get(key);
+                if (pref == null || pref instanceof String || pref instanceof Number || pref instanceof Boolean) {
+                    writer.key(key);
+                    writer.value(pref);
+                }
+            }
+            
+            writer.endObject();
         } catch (JSONException e) {
             respondException(response, e);
         }

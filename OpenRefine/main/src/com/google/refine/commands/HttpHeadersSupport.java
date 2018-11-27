@@ -33,11 +33,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 package com.google.refine.commands;
 
+import com.google.refine.RefineServlet;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
-import com.google.refine.RefineServlet;
 
 abstract public class HttpHeadersSupport {
 

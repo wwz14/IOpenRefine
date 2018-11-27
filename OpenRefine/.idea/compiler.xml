@@ -6,20 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="command" />
         <module name="commonpart" />
-        <module name="database" />
-        <module name="gdata" />
-        <module name="io" />
-        <module name="jython" />
         <module name="logging" />
         <module name="main" />
         <module name="packaging" />
-        <module name="pc-axis" />
         <module name="server" />
         <module name="util" />
-        <module name="wikidata" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="command" target="9" />
+      <module name="database" target="1.5" />
+      <module name="extensions" target="1.8" />
+      <module name="gdata" target="1.5" />
+      <module name="io" target="9" />
+      <module name="jython" target="1.5" />
+      <module name="pc-axis" target="1.5" />
+      <module name="wikidata" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

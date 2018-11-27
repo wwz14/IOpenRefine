@@ -39,10 +39,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.google.refine.RefineServlet;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import com.google.refine.RefineServlet;
 
 public class GetVersionCommand extends Command {
     

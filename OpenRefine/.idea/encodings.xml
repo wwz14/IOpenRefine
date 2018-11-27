@@ -5,10 +5,6 @@
     <file url="file://$PROJECT_DIR$/command" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commonpart" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/extensions" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/extensions/database" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/extensions/gdata" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/extensions/jython" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/extensions/pc-axis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/extensions/wikidata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/io" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/logging" charset="UTF-8" />

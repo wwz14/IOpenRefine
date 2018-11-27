@@ -7,6 +7,7 @@ module main {
     requires slf4j.api;
     requires servlet.api;
 
+    requires velocity;
     requires org.everit.json.schema;
     requires commons.io;
     requires commons.beanutils;
@@ -22,6 +23,9 @@ module main {
     requires httpclient;
     requires datapackage.java;
     requires tableschema.java;
+    requires java.desktop;
+    requires org.apache.commons.lang3;
+//    requires command;
 
 
     exports com.google.refine;
